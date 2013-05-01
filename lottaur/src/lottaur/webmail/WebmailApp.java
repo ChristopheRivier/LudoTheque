@@ -60,11 +60,11 @@ public class WebmailApp extends javax.swing.JFrame implements java.lang.Runnable
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setName("FramePrincipale");
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jToggleButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ressource/refresh.png")));
+        jToggleButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("../ressources/refresh.png")));
         jToggleButton1.setBorder(null);
         jToggleButton1.setIconTextGap(0);
 
-        jToggleButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ressource/add.png")));
+        jToggleButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("../ressources/add.png")));
         jToggleButton2.setBorder(null);
         jToggleButton2.setIconTextGap(0);
         jToggleButton2.setRolloverEnabled(true);
