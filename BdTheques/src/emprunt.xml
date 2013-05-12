@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="emprunt.xsl"?>
+<emprunt name="CRR">
+	<categorie name="BD">
+		<entite title="Morea T3" >
+			<auteur>Arleston,Latil Labrosse</auteur>
+                        <description>Ayant les 2 premiers, il faut les suivants, j'aime beaucoup</description>
+                        <date_emprunt>oct 2006</date_emprunt>
+		</entite>
+		<entite title="Morea T4">
+			<auteur>Arleston,Latil Labrosse</auteur>
+                        <date_emprunt>oct 2006</date_emprunt>
+		</entite>
+		<entite title="Princes d'Arklan T1">
+			<auteur>Gaudin, Sieurat</auteur>
+                        <date_emprunt>oct 2006</date_emprunt>
+                </entite>
+                <entite title="Princes d'Arklan T2">
+			<auteur>Gaudin, Sieurat</auteur>
+                        <date_emprunt>oct 2006</date_emprunt>
+                </entite>
+		<entite title="Princes d'Arklan T3">
+			<auteur>Gaudin, Sieurat</auteur>
+                        <date_emprunt>oct 2006</date_emprunt>
+                </entite>
+		<entite title="Morgana T1">
+			<auteur>Alberti, Enoch</auteur>
+                        <description>première trilogie, assez prenant, le fin de la trilogie laisse présager une suite plus ennuyeuse</description>
+                        <date_emprunt>Nov 2006</date_emprunt>
+                </entite>
+		<entite title="Morgana T2">
+			<auteur>Alberti, Enoch</auteur>
+                        <date_emprunt>Nov 2006</date_emprunt>
+                </entite>
+		<entite title="Morgana T3">
+			<auteur>Alberti, Enoch</auteur>
+                        <date_emprunt>Nov 2006</date_emprunt>
+                </entite>
+		<entite title="Le lievre de mars">
+			<auteur>Cothias,Parras</auteur>
+                        <date_emprunt>Nov 2006</date_emprunt>
+                </entite>
+		<entite title="Le lievre de mars 2">
+			<auteur>Cothias,Parras</auteur>
+                        <date_emprunt>Nov 2006</date_emprunt>
+                </entite>
+		<entite title="Le lievre de mars 3">
+			<auteur>Cothias,Parras</auteur>
+                        <date_emprunt>Nov 2006</date_emprunt>
+                </entite>
+		<entite title="Le lievre de mars 4">
+			<auteur>Cothias,Parras</auteur>
+                        <date_emprunt>Nov 2006</date_emprunt>
+                        <description>Fin du premier cycle, d'après les critiques la série aurait du s'arréter là</description>
+                </entite>
+		<entite title="Le lievre de mars 5">
+			<auteur>Cothias,Parras</auteur>
+                        <date_emprunt>Nov 2006</date_emprunt>
+                </entite>
+		<entite title="Le lievre de mars 6">
+			<auteur>Cothias,Parras</auteur>
+                        <date_emprunt>Nov 2006</date_emprunt>
+                        <description>Je trouvais les critiques sévère, mais après avoir lu le 9 je comprends c'est du n'importe quoi, un ne sais pas ou le scénario va nous emmener, généralement c'est une qualité mais là ...</description>
+                </entite>
+		<entite title="Le lievre de mars 7">
+			<auteur>Cothias,Parras</auteur>
+                        <date_emprunt>Nov 2006</date_emprunt>
+                </entite>
+		<entite title="Le lievre de mars 8">
+			<auteur>Cothias,Guéra</auteur>
+                        <date_emprunt>Nov 2006</date_emprunt>
+                </entite>
+		<entite title="Le lievre de mars 9">
+			<auteur>Cothias,Guéra</auteur>
+                        <date_emprunt>Nov 2006</date_emprunt>
+                        <description>Le scénariste devait vouloir finir rapidement, plus d'une dizaine de page réécrite, par un autre dessinateur d'accord mais c'est de la bue => je pense qu'après ce flop il n'aura jamais de suite</description>
+                </entite>
+                <entite title="Atalante">
+                   <auteur>Crisse</auteur>
+                   <date_emprunt>Nov 2006</date_emprunt>
+                </entite>
+                <entite title="Atalante T2">
+                   <auteur>Crisse</auteur>
+                   <date_emprunt>Nov 2006</date_emprunt>
+                </entite>
+                <entite title="Atalante T3">
+                   <auteur>Crisse</auteur>
+                   <date_emprunt>Nov 2006</date_emprunt>
+                </entite>
+                <entite title="Marlysa T1 le masque">
+                   <auteur>Gaudin Danard</auteur>
+                   <date_emprunt>Dec 2006</date_emprunt>
+                </entite>
+                <entite title="Marlysa T2 l'ombre de Dompour">
+                   <auteur>Gaudin Danard</auteur>
+                   <date_emprunt>Dec 2006</date_emprunt>
+                </entite>
+                <entite title="Marlysa T3 l'autre côté">
+                   <auteur>Gaudin Danard</auteur>
+                   <date_emprunt>Dec 2006</date_emprunt>
+                </entite>
+                <entite title="Marlysa T4  Bragal">
+                   <auteur>Gaudin Danard</auteur>
+                   <date_emprunt>Dec 2006</date_emprunt>
+                </entite>
+                <entite title="Marlysa T5 le Thaumaturge">
+                   <auteur>Gaudin Danard</auteur>
+                   <date_emprunt>Dec 2006</date_emprunt>
+                   <description>Fin du premier cycle : toujours sur le thème combat, bien contre mal, l'équipe est assez sympathique</description>
+                </entite>
+                <entite title="Marlysa T6 la femme vie">
+                   <auteur>Gaudin Danard</auteur>
+                   <date_emprunt>Dec 2006</date_emprunt>
+                   <description>On ne retrouve que Marlysa, c'est décevant, mais en même temps c'est mieux, on continue sur le personnage principale. Ce tome ce suffit à lui même => laisse présagé des suites comme troll de troy</description>
+                </entite>
+                <entite title="Les foret d'Opale T1 Le bracelet de Cohars">
+                   <auteur>Arleston Pellet</auteur>
+                   <date_emprunt>Dec 2006</date_emprunt>
+                </entite>
+                <entite title="Les foret d'Opale T2 L'envers du grimoire">
+                   <auteur>Arleston Pellet</auteur>
+                   <date_emprunt>Dec 2006</date_emprunt>
+                </entite>
+                <entite title="Les foret d'Opale T3 La cicatrice verte">
+                   <auteur>Arleston Pellet</auteur>
+                   <date_emprunt>Dec 2006</date_emprunt>
+                </entite>
+                <entite title="Les foret d'Opale T4 Les geoles de nénuphe">
+                   <auteur>Arleston Pellet</auteur>
+                   <date_emprunt>Dec 2006</date_emprunt>
+                </entite>
+                <entite title="Pandora I le régent fou">
+                   <auteur>Allart Stoffel</auteur>
+                   <description>Une jeune princesse pucelle, qui ne doit pas le rester longtemps, un jolie porteur du Toh (objet magique), un protecteur, un bon trio pour une série ou les tomes devrait à priori ce suffir à eux même, l'histoire générale ne semble pas très importante</description>
+                   <date_emprunt>Dec 2006</date_emprunt>
+                </entite>
+                <entite title="Pandora II les flibustiers du grand fleuve">
+                   <auteur>Allart Stoffel</auteur>
+                   <date_emprunt>Dec 2006</date_emprunt>
+                </entite>
+                <entite title="Pandora III Le porteur du nôth">
+                   <auteur>Allart Stoffel</auteur>
+                   <date_emprunt>Dec 2006</date_emprunt>
+                </entite>
+                <entite title="Pandora IV Tohu-bohu">
+                   <auteur>Allart Stoffel</auteur>
+                   <date_emprunt>Dec 2006</date_emprunt>
+                </entite>
+                <entite title="Geste des chevaliers dragons (La) T1 Jaïna">
+                   <auteur>Ange Varanda</auteur>
+                   <date_emprunt>Jan 2007</date_emprunt>
+                </entite>
+                <entite title="Geste des chevaliers dragons (La) T2 Akanah">
+                   <auteur>Ange Briones</auteur>
+                   <date_emprunt>Jan 2007</date_emprunt>
+                </entite>
+                <entite title="Geste des chevaliers dragons (La) T3 Le pays de non-vie">
+                   <auteur>Ange Guinebaud</auteur>
+                   <date_emprunt>Jan 2007</date_emprunt>
+                </entite>
+                <entite title="Geste des chevaliers dragons (La) T4 Brisken">
+                   <auteur>Ange Briones</auteur>
+                   <date_emprunt>Jan 2007</date_emprunt>
+                </entite>
+                <entite title="Geste des chevaliers dragons (La) T5 Les jardins du palais">
+                   <auteur>Ange Paty</auteur>
+                   <date_emprunt>Jan 2007</date_emprunt>
+                </entite>
+                <entite title= "Witness 4 T1 A coeur perdu">
+                   <auteur>Arnoux Millien</auteur>
+                   <date_emprunt>Jan 2007</date_emprunt>
+                </entite>
+                <entite title= "Witness 4 T2 L'icône sans mémoire"> 
+                   <auteur>Arnoux Millien</auteur>
+                   <date_emprunt>Jan 2007</date_emprunt>
+                </entite>
+                <entite title= "Witness 4 T3 En vert et contre tous">
+                   <auteur>Arnoux Millien</auteur>
+                   <date_emprunt>Jan 2007</date_emprunt>
+                </entite>
+                <entite title="Le chant d'excalibur T1 le reveil de Merlin">
+                   <auteur>Arleston Hübsch</auteur>
+                   <date_emprunt>Jan 2007</date_emprunt>
+                </entite>
+                <entite title="Le chant d'excalibur T2 le sidhe aux milles charmes">
+                   <auteur>Arleston Hübsch</auteur>
+                   <date_emprunt>Jan 2007</date_emprunt>
+                </entite>
+                <entite title="Le chant d'excalibur T3 la griffe de rome">
+                   <auteur>Arleston Hübsch</auteur>
+                   <date_emprunt>Jan 2007</date_emprunt>
+                </entite>
+                <entite title="Le chant d'excalibur T4 la colère de Merlin">
+                   <auteur>Arleston Hübsch</auteur>
+                   <date_emprunt>Jan 2007</date_emprunt>
+                   <description>Rien de très nouveaux, c'est du Arleston tout cracher, quelques pics à Astérix, toujours une femme comme Héroïne ... mais on ne peut pas être dessus si on aime ;)</description>
+                </entite>
+                <entite title="Mangecoeur T1 La chrysalide Diaprée">
+                   <auteur>Gallié Andreae</auteur>
+                   <date_emprunt>Jan 2007</date_emprunt>
+                </entite>
+                <entite title="Mangecoeur T2 Dans le jeu des Miroirs">
+                   <auteur>Gallié Andreae</auteur>
+                   <date_emprunt>Jan 2007</date_emprunt>
+                </entite>
+                <entite title="Mangecoeur T3 Le rève d'Argemme">
+                   <auteur>Gallié Andreae</auteur>
+                   <date_emprunt>Jan 2007</date_emprunt>
+                </entite>
+                <entite title="Mycroft Inquisitor T1 ">
+                   <auteur>Arleston,Latil Manini</auteur>
+                   <date_emprunt>Jan 2007</date_emprunt>
+                </entite>
+                <entite title="Mycroft Inquisitor T2">
+                   <auteur>Arleston,Latil Manini</auteur>
+                   <date_emprunt>Jan 2007</date_emprunt>
+                </entite>
+                <entite title="Salem la noire T1 La pierre de Mort-Levée">
+                   <auteur>Cordurié Créty</auteur>
+                   <date_emprunt>Jan 2007</date_emprunt>
+                   <description>BD de dérision, drôle, dans un univers magique</description>
+                </entite>
+                <entite title="Salem la noire T2 Le diadème des ames">
+                   <auteur>Cordurié Créty</auteur>
+                   <date_emprunt>Jan 2007</date_emprunt>
+                </entite>
+                <entite title="Salem la noire T3 Tongeren et Finicho">
+                   <auteur>Cordurié Créty</auteur>
+                   <date_emprunt>Jan 2007</date_emprunt>
+                </entite>
+                <entite title="Seigneur d'agartha T1 La dette">
+                   <auteur>Plongeon Briones</auteur>
+                   <date_emprunt>Jan 2007</date_emprunt>
+                   <description>Si vous croyez être seul dans l'univers c'est sans compter avec les seigneurs d'agartha. Seule les filles peuvent survivre sur la terre, un rejeton à subsiter, avec tous les efforts de sa mère.... c'est sympa, comme beaucoup on a peur que ça traine en longueur, très bonne entame en tout cas.</description>
+                </entite>
+                <entite title="Seigneur d'agartha T2 L'oracle">
+                   <auteur>Plongeon Briones</auteur>
+                   <date_emprunt>Jan 2007</date_emprunt>
+                </entite>
+                <entite title="Machefer T01 une huile en fuite">
+                   <auteur>Duval Vastra</auteur>
+                   <date_emprunt>Jan 2007</date_emprunt>
+                   <description>Série finie, humour et action sont au rdv dans ces aventures, a priori dans le futur, ou les connaissances technologique pour la fabrication des certains composant ont été perdu (ou détruit?)</description>
+                </entite>
+                <entite title="Machefer T02 le désert des carcasses">
+                   <auteur>Duval Vastra</auteur>
+                   <date_emprunt>Jan 2007</date_emprunt>
+                </entite>
+                <entite title="Machefer T03 les 24 heures du monde">
+                   <auteur>Duval Vastra</auteur>
+                   <date_emprunt>Jan 2007</date_emprunt>
+                </entite>
+                <entite title="Slhoka T01 L'ile oubliée">
+                   <auteur>Godderidge Floch</auteur>
+                   <date_emprunt>Jan 2007</date_emprunt>
+                   <description>Une guerre entre 2 peuples, un peuple oublié avec ces dieux, qui veulent sauver son peuple, monde interressant, scénario sans trop de nouveauté</description>
+                </entite>
+                <entite title="Slhoka T02 Les jardins de Sangali">
+                   <auteur>Godderidge Floch</auteur>
+                   <date_emprunt>Jan 2007</date_emprunt>
+                </entite>
+                <entite title="Slhoka T03 Le monde blanc">
+                   <auteur>Godderidge Floch</auteur>
+                   <date_emprunt>Jan 2007</date_emprunt>
+                </entite>
+                <entite title="Alzéor Mondraggo T01 La pierre blanche">
+                   <auteur>Makyo Caryn</auteur>
+                   <date_emprunt>Fev 2007</date_emprunt>
+                   <description>Dans un monde moyennageux et magique, une grosse part de dérision, c'est écrit par un mec, et c'est pour ça que c'est drôle, (il a du avoir des pb avec ça copine ;) )</description>
+                </entite>
+                <entite title="Alzéor Mondraggo T02 Le prince rouge">
+                   <auteur>Makyo Caryn</auteur>
+                   <date_emprunt>Fev 2007</date_emprunt>
+                </entite>
+                <entite title="Alzéor Mondraggo T03 la clef de l'amour">
+                   <auteur>Makyo Caryn</auteur>
+                   <date_emprunt>Fev 2007</date_emprunt>
+                   <description>Album satirique sur les ceintures de chasteté, résume typiquement le comportement masculin (avec les montés d'hormone, les femmes nous tiennent par le bout du nez)</description>
+                </entite>
+                <entite title="Travis T01 Huracan">
+                   <auteur>Duval Quet</auteur>
+                   <date_emprunt>Fev 2007</date_emprunt>
+                   <description>Scénario très prenant, pour l'instant chaque tome donne des réponses aux questions posées, se dévore</description>
+                </entite>
+                <entite title="Travis T02 Operation minotaure">
+                   <auteur>Duval Quet</auteur>
+                   <date_emprunt>Fev 2007</date_emprunt>
+                </entite>
+                <entite title="Travis T03 Agent du chaos">
+                   <auteur>Duval Quet</auteur>
+                   <date_emprunt>Fev 2007</date_emprunt>
+                </entite>
+                <entite title="Travis T04 Protocole Oslo">
+                   <auteur>Duval Quet</auteur>
+                   <date_emprunt>Fev 2007</date_emprunt>
+                </entite>
+                <entite title="Travis T05 Cybernation">
+                   <auteur>Duval Quet</auteur>
+                   <date_emprunt>Fev 2007</date_emprunt>
+                   <description>Fin du premier cycle, Super scénario, dans le futur 2050, intrigue planétaire, sur fond de multiinternationnal qui prenne le pouvoir de la planète ...</description>
+                </entite>
+                <entite title="Travis T06.1 Le Hammeau des chènes">
+                   <auteur>Duval Quet</auteur>
+                   <date_emprunt>Fev 2007</date_emprunt>
+                </entite>
+                <entite title="Travis T06.2 Topkapi">
+                   <auteur>Duval Alizon</auteur>
+                   <date_emprunt>Fev 2007</date_emprunt>
+                </entite>
+                <entite title="Travis T07 La Tarentule">
+                   <auteur>Duval Quet</auteur>
+                   <date_emprunt>Fev 2007</date_emprunt>
+                   <description>Fin du second cycle, des révélations sur le rôle de Travis dans tout ça</description>
+                </entite>
+                <entite title="La cicatrice du souvenir T01 Les évadés de Kanash">
+                   <auteur>Ange Paty</auteur>
+                   <date_emprunt>Fev 2007</date_emprunt>
+                </entite>
+                <entite title="La cicatrice du souvenir T02 Le cristal de Baïn">
+                   <auteur>Ange Paty</auteur>
+                   <date_emprunt>Fev 2007</date_emprunt>
+                </entite>
+                <entite title="La cicatrice du souvenir T03 Le livre d'Erkor">
+                   <auteur>Ange Paty</auteur>
+                   <date_emprunt>Fev 2007</date_emprunt>
+                </entite>
+                <entite title="le sang du dragon T01 au delà des brumes">
+                   <auteur>Istin Michel</auteur>
+                   <date_emprunt>Fev 2007</date_emprunt>
+                   <description>Série en cours. Scénario très prenant. Au 18ème pirates, et monde magique elfique. Les elfes vivent dans un monde non visible des humains, certaines portent permettent de passer d'un monde à l'autre. Un pirate connaissant ces portes devient le maitre ;)</description>
+                </entite>
+                <entite title="le sang du dragon T02 la pierre de Gaeldenn">
+                   <auteur>Istin Michel</auteur>
+                   <date_emprunt>Fev 2007</date_emprunt>
+                </entite>
+                <entite title="Merlin T01 La colère d'Ahès">
+                   <auteur>Istin Lambert</auteur>
+                   <date_emprunt>Mars 2007</date_emprunt>
+                   <description>Série en cours, Merlin fils du dieu du vent et d'un vierge, l'élu, le messie des peuples magiques...</description>
+                </entite>
+                <entite title="Merlin T02 L'éveil du pouvoir">
+                   <auteur>Istin Lambert</auteur>
+                   <date_emprunt>Mars 2007</date_emprunt>
+                </entite>
+                <entite title="Merlin T03 Le Cromm-Cruach">
+                   <auteur>Istin Lambert</auteur>
+                   <date_emprunt>Mars 2007</date_emprunt>
+                </entite>
+                <entite title="Merlin T04 Avalon">
+                   <auteur>Istin Lambert</auteur>
+                   <date_emprunt>Mars 2007</date_emprunt>
+                </entite>
+                <entite title="Merlin T05 Brendann le maudit">
+                   <auteur>Istin Lambert</auteur>
+                   <date_emprunt>Mars 2007</date_emprunt>
+                </entite>
+                <entite title="Merlin T06 L'ermite et le nid">
+                   <auteur>Istin Lambert</auteur>
+                   <date_emprunt>Mars 2007</date_emprunt>
+                </entite>
+                <entite title="Merlin T07 Le chaudron de Bran-le-Béni">
+                   <auteur>Istin Lambert</auteur>
+                   <date_emprunt>Mars 2007</date_emprunt>
+                </entite>
+                <entite title="Merlin T08 L'aube des armes">
+                   <auteur>Istin Lambert</auteur>
+                   <date_emprunt>Mars 2007</date_emprunt>
+                </entite>
+                <entite title="Les brumes d'Asceltis T01 La citadelle Oslanne">
+                   <date_emprunt>Mars 2007</date_emprunt>
+                   <auteur>Jarry Istin</auteur>
+                   <description>Série en cours. 8000 ans ce sont écoulés depuis l'affrontement entre les élus de 4 Dieux contre Azell (dieu rebelle ayant pris forme sur terre), Azell doit se réincarner et soumettre le royaume d'Asceltis au Chaos</description>
+                </entite>
+                <entite title="Les brumes d'Asceltis T02 Le dieu Lépreux">
+                   <date_emprunt>Mars 2007</date_emprunt>
+                   <auteur>Jarry Istin</auteur>
+                </entite>
+                <entite title="Les brumes d'Asceltis T03 Le roi Akorenn">
+                   <date_emprunt>Mars 2007</date_emprunt>
+                   <auteur>Jarry Istin</auteur>
+                </entite>
+                <entite title="Carmen Mc Callum T01 Jukurpa">
+                   <date_emprunt>Mars 2007</date_emprunt>
+                   <auteur>Duval Gess</auteur>
+                   <description>Auteur de Travis, même univers 2050, influence politique, Carmen chasseur de prime, travail maintenant pour l'ONU en indépendante</description>
+                </entite>
+                <entite title="Carmen Mc Callum T02 Mare Tranquilitatis">
+                   <date_emprunt>Mars 2007</date_emprunt>
+                   <auteur>Duval Gess</auteur>
+                </entite>
+                <entite title="Carmen Mc Callum T03 Intrusions">
+                   <date_emprunt>Mars 2007</date_emprunt>
+                   <auteur>Duval Gess</auteur>
+                </entite>
+                <entite title="Carmen Mc Callum T04 Samuel Earp">
+                   <date_emprunt>Mars 2007</date_emprunt>
+                   <auteur>Duval Gess</auteur>
+                </entite>
+                <entite title="Carmen Mc Callum T05 Deus Ex Machina">
+                   <date_emprunt>Mars 2007</date_emprunt>
+                   <auteur>Duval Gess</auteur>
+                </entite>
+                <entite title="Carmen Mc Callum T06 Le sixième doigt du Pendjab">
+                   <date_emprunt>Mars 2007</date_emprunt>
+                   <auteur>Duval Gess</auteur>
+                </entite>
+                <entite title="Carmen Mc Callum T07 L'appel de Baïkonour">
+                   <date_emprunt>Mars 2007</date_emprunt>
+                   <auteur>Duval Gess</auteur>
+                </entite>
+                <entite title="Carmen + Travis Les récits (Volume 1)">
+                   <date_emprunt>Mars 2007</date_emprunt>
+                   <auteur>Duval Collectif de dessinateur</auteur>
+                   <description>Pour les fans de l'univers de Duval, je trouves les récits interessants, précise le monde de Carmen et Travis. Par contre le collectif rend la lecture fastitueuse, couleur, personnage non simulaire, il faut retrouver ses petits à chaque récit</description>
+                </entite>
+                <entite title="Carmen + Travis Les récits (Volume 2)">
+                   <date_emprunt>Mars 2007</date_emprunt>
+                   <auteur>Duval Collectif de dessinateur</auteur>
+                </entite>
+                <entite title="L'épée de Cristal T01 Le parfum des Grinches">
+                   <date_emprunt>Mars 2007</date_emprunt>
+                   <auteur>Goupil Crisse</auteur>
+                </entite>
+                <entite title="L'épée de Cristal T02 Le regard de Wenlok">
+                   <date_emprunt>Mars 2007</date_emprunt>
+                   <auteur>Goupil Crisse</auteur>
+                </entite>
+                <entite title="L'épée de Cristal T03 La main de la Mangrove">
+                   <date_emprunt>Mars 2007</date_emprunt>
+                   <auteur>Goupil Crisse</auteur>
+                </entite>
+                <entite title="L'épée de Cristal T04 Le cri du Grouse">
+                   <date_emprunt>Mars 2007</date_emprunt>
+                   <auteur>Goupil Crisse</auteur>
+                </entite>
+                <entite title="L'épée de Cristal T05 Le goût de Sulfur">
+                   <date_emprunt>Mars 2007</date_emprunt>
+                   <auteur>Goupil Crisse</auteur>
+                </entite>
+                <entite title="L'ancètre programmé (2026)T01 Le temps de l'éveil">
+                   <date_emprunt>Avr 2007</date_emprunt>
+                   <auteur>Ploy Malnati</auteur>
+                   <description>Le monde en 2024-2028, la planète est a son apogée capitalistique. Une supercaculateur, se reprogramme pour créer une nouvelle réligion et ainsi sauvegarder l'humanité... </description>
+                </entite>
+                <entite title="L'ancètre programmé (2026)T02 Le temps de la conscience">
+                   <date_emprunt>Avr 2007</date_emprunt>
+                   <auteur>Ploy Malnati</auteur>
+                </entite>
+                <entite title="L'ancètre programmé (2026)T03 Le temps du jugement">
+                   <date_emprunt>Avr 2007</date_emprunt>
+                   <auteur>Ploy Malnati</auteur>
+                </entite>
+                <entite title="L'ancètre programmé (2026)T04 Le temps du savoir">
+                   <date_emprunt>Avr 2007</date_emprunt>
+                   <auteur>Ploy Pagot,Di Bernardo,Brandi</auteur>
+                </entite>
+                <entite title="L'ancètre programmé (2026)T05 La révélation">
+                   <date_emprunt>Avr 2007</date_emprunt>
+                   <auteur>Ploy Di Bernardo,Brandi</auteur>
+                </entite>
+                <entite title="Fides (2029) T01 Opus matrice">
+                   <date_emprunt>Avr 2007</date_emprunt>
+                   <auteur>Ploy Pagot,Loïc</auteur>
+                   <description>Suite de L'ancètre programmé 2026. La destruction du super calculateur entraine une secte au pouvoir. Les contre-révélationiste tente de mettre fin à cette magnifique manipulation des foules</description>
+                </entite>
+                <entite title="Fides (2029) T02 Fines matrice">
+                   <date_emprunt>Avr 2007</date_emprunt>
+                   <auteur>Ploy Pagot,Loïc</auteur>
+                </entite>
+                <entite title="Fides (2029) T03 inferna">
+                   <date_emprunt>Avr 2007</date_emprunt>
+                   <auteur>Ploy Pagot</auteur>
+                </entite>
+                <entite title="Fides (2029) T04 redemptio">
+                   <date_emprunt>Avr 2007</date_emprunt>
+                   <auteur>Ploy Pagot</auteur>
+                </entite>
+                <entite title="Kookaburra T01 Planète Dakoï">
+                   <date_emprunt>Avr 2007</date_emprunt>
+                   <auteur>Crisse</auteur>
+                </entite>
+                <entite title="Kookaburra T02 Secteur WBH3">
+                   <date_emprunt>Avr 2007</date_emprunt>
+                   <auteur>Crisse</auteur>
+                </entite>
+                <entite title="Kookaburra T03 Projet equinoxe">
+                   <date_emprunt>Avr 2007</date_emprunt>
+                   <auteur>Crisse</auteur>
+                </entite>
+                <entite title="Kookaburra T04 Système ragnarok">
+                   <date_emprunt>Avr 2007</date_emprunt>
+                   <auteur>Crisse Mitric</auteur>
+                </entite>
+                <entite title="Kookaburra T05 Retour à Terradoes">
+                   <date_emprunt>Avr 2007</date_emprunt>
+                   <auteur>Crisse Mitric</auteur>
+                </entite>
+                <entite title="Kookaburra Universe T01 Le secret du sniper">
+                   <date_emprunt>Avr 2007</date_emprunt>
+                   <auteur>Crisse Mitric</auteur>
+                </entite>
+                <entite title="Kookaburra Universe T02 Taman Kha">
+                   <date_emprunt>Avr 2007</date_emprunt>
+                   <auteur>Ange Paty</auteur>
+                </entite>
+                <entite title="Kookaburra Universe T03 Mano Kha">
+                   <date_emprunt>Avr 2007</date_emprunt>
+                   <auteur>Ange Paty</auteur>
+                </entite>
+                <entite title="Kookaburra Universe T04 Skullface">
+                   <date_emprunt>Avr 2007</date_emprunt>
+                   <auteur>Gaudin Briones</auteur>
+                </entite>
+                <entite title="Kookaburra Universe T05 Les larmes de Gosharad">
+                   <date_emprunt>Avr 2007</date_emprunt>
+                   <auteur>Tackian Lamirand</auteur>
+                </entite>
+                <entite title="Kookaburra Universe T06 Le serment dakoïd">
+                   <date_emprunt>Avr 2007</date_emprunt>
+                   <auteur>Mitric Péru</auteur>
+                </entite>
+                <entite title="Kaamelott T01 L'armée du nécremant">
+                   <auteur>Astier Dupre</auteur>
+                   <date_emprunt>Mai 2007</date_emprunt>
+                </entite>
+                <entite title="Le sabre et l'épée T01 La yesha">
+                   <auteur>Chauvel Boivin</auteur>
+                   <date_emprunt>Mai 2007</date_emprunt>
+                </entite>
+                <entite title="Le sabre et l'épée T02 Au coeur des rivières et des lacs...">
+                   <auteur>Chauvel Boivin</auteur>
+                   <date_emprunt>Mai 2007</date_emprunt>
+                </entite>
+                <entite title="Histoire Secrete T01 Génèse">
+                   <auteur>Pécau Kordey</auteur>
+                   <date_emprunt>Mai 2007</date_emprunt>
+                </entite>
+                <entite title="Histoire Secrete T02 Le chateau des djinns">
+                   <auteur>Pécau Kordey</auteur>
+                   <date_emprunt>Mai 2007</date_emprunt>
+                </entite>
+                <entite title="Histoire Secrete T03 Le Graal de Montségur">
+                   <auteur>Pécau Sudzuka</auteur>
+                   <date_emprunt>Mai 2007</date_emprunt>
+                </entite>
+                <entite title="Histoire Secrete T04 Les clefs de Saint Pierre">
+                   <auteur>Pécau Pilipovic</auteur>
+                   <date_emprunt>Mai 2007</date_emprunt>
+                </entite>
+                <entite title="Chaos T01 Elfes Noirs">
+                   <auteur>Falba Tasiaux</auteur>
+                   <date_emprunt>Juin 2007</date_emprunt>
+                </entite>
+                <entite title="Chaos T02 L'ombre du doute">
+                   <auteur>Falba Tasiaux</auteur>
+                   <date_emprunt>Juin 2007</date_emprunt>
+                </entite>
+                <entite title="Chaos T03 La fin d'un cycle">
+                   <auteur>Falba Tasiaux</auteur>
+                   <date_emprunt>Juin 2007</date_emprunt>
+                </entite>
+                <entite title="Anachron T01 Le retour de la bète">
+                   <auteur>Cailleteau Jurion</auteur>
+                   <date_emprunt>Juin 2007</date_emprunt>
+                   <description>Au XXII siècle, Un consortium internationnal concerve les planètes non encore prète (assez évoluer) des nouvelles technologies. Thèmes interressant, mais le scénario n'est pas hyper prenant, fait passer le temps.</description>
+                </entite>
+                <entite title="Anachron T02 Le septième capitaine">
+                   <auteur>Cailleteau Jurion</auteur>
+                   <date_emprunt>Juin 2007</date_emprunt>
+                </entite>
+                <entite title="Anachron T03 Le passeur des monts Kordils">
+                   <auteur>Cailleteau Jurion</auteur>
+                   <date_emprunt>Juin 2007</date_emprunt>
+                </entite>
+                <entite title="Anachron T04 L'héritage du héros">
+                   <auteur>Cailleteau Jurion</auteur>
+                   <date_emprunt>Juin 2007</date_emprunt>
+                </entite>
+                <entite title="Anachron T05 Pavillon noir sur la capricieuse">
+                   <auteur>Cailleteau Jurion</auteur>
+                   <date_emprunt>Juin 2007</date_emprunt>
+                </entite>
+                <entite title="Nocturnes rouges T01 Sang rouge">
+                   <date_emprunt>Juillet 2007</date_emprunt>
+                   <auteur>Nhieu</auteur>
+                   <description>Les vampires sont depuis toujours parmis nous. La terre a retrouvé la tranquilité aps l'extermination des pretes noires. Mais ils reviennent avec l'aide des vampires ... scénario est très prenant!</description>
+                </entite>
+                <entite title="Nocturnes rouges T02 Zéphyr">
+                   <date_emprunt>Juillet 2007</date_emprunt>
+                   <auteur>Nhieu</auteur>
+                </entite>
+                <entite title="Nocturnes rouges T03 Tonnerre pourpre">
+                   <date_emprunt>Juillet 2007</date_emprunt>
+                   <auteur>Nhieu</auteur>
+                </entite>
+                <entite title="Nocturnes rouges T04 Une seconde chance">
+                   <date_emprunt>Juillet 2007</date_emprunt>
+                   <auteur>Nhieu</auteur>
+                </entite>
+                <entite title="Les arcanes de Midi Minuit T01 L'affaire de Nalta P312">
+                   <date_emprunt>Juillet 2007</date_emprunt>
+                   <auteur>Gaudin Trichet</auteur>
+                   <description>Policier dans la deuxieme ere industrielle, scénario hyper prenant, dommage qu'il n'y ait pas vraiement de trame directrice entre les tomes</description>
+                </entite>
+                <entite title="Les arcanes de Midi Minuit T02 L'affaire de la ligne II">
+                   <date_emprunt>Juillet 2007</date_emprunt>
+                   <auteur>Gaudin Trichet</auteur>
+                </entite>
+                <entite title="Les arcanes de Midi Minuit T03 L'affaire Colossos">
+                   <date_emprunt>Juillet 2007</date_emprunt>
+                   <auteur>Gaudin Trichet</auteur>
+                </entite>
+                <entite title="Les arcanes de Midi Minuit T04 L'affaire des Oungan">
+                   <date_emprunt>Juillet 2007</date_emprunt>
+                   <auteur>Gaudin Trichet</auteur>
+                </entite>
+                <entite title="Le dernier Troyen T01 Le cheval de Troie">
+                   <date_emprunt>Juillet 2007</date_emprunt>
+                   <auteur>Mangin Démarez</auteur>
+                   <description>Mitologie galactique, sorte d'épopée d'Ulysse galactique. J'aime bien l'univers, qui se cale sur la mitologie Grec connu.</description>
+                </entite>
+                <entite title="Le dernier Troyen T02 La reine des Amazones">
+                   <date_emprunt>Juillet 2007</date_emprunt>
+                   <auteur>Mangin Démarez</auteur>
+                </entite>
+                <entite title="Le dernier Troyen T03 Les lotophages">
+                   <date_emprunt>Juillet 2007</date_emprunt>
+                   <auteur>Mangin Démarez</auteur>
+                </entite>
+                <entite title="Le dernier Troyen T04 Carthago">
+                   <date_emprunt>Juillet 2007</date_emprunt>
+                   <auteur>Mangin Démarez</auteur>
+                </entite>
+           </categorie>
+	<categorie name="CD">
+		<entite title="Paradize">
+			<auteur>Indochine</auteur>
+                        <description>Musique trop synthétique pour moi</description>
+                        <date_emprunt>Oct 2006</date_emprunt>
+		</entite>
+		<entite title="fff">
+			<auteur>fff</auteur>
+                        <date_emprunt>Nov 2006</date_emprunt>
+		</entite>
+		<entite title="Thomas F4rsen">
+			<auteur>Thomas Fersen</auteur>
+                        <date_emprunt>Nov 2006</date_emprunt>
+		</entite>
+		<entite title="L'homme du moment">
+			<auteur>Alexis HK</auteur>
+                        <description>C'est du HK tout craché</description>
+                        <date_emprunt>Nov 2006</date_emprunt>
+		</entite>
+		<entite title="t'es fou">
+			<auteur>La tordue</auteur>
+                        <date_emprunt>Nov 2006</date_emprunt>
+		</entite>
+                <entite title="au milieu des autres">
+                   <auteur>Calogero</auteur>
+                   <description>deçu, chanson sans trop de caractère</description>
+                        <date_emprunt>Nov 2006</date_emprunt>
+                </entite>
+                <entite title="post partum">
+                   <auteur>Les innocents</auteur>
+                   <description>je les pensais pechu, mais c'est mou</description>
+                        <date_emprunt>Nov 2006</date_emprunt>
+                </entite>
+                <entite title="Rachel au rocher">
+                   <auteur>Tue loup</auteur>
+                   <date_emprunt>Nov 2006</date_emprunt>
+                   <description>Rock tranquille, ambiance, lancinent (proche Saez)</description>
+                </entite>
+                <entite title="grain de sable">
+                   <auteur>Tryo</auteur>
+                        <date_emprunt>Nov 2006</date_emprunt>
+                        <description>Pas de changement c'est du Tryo, peut etre un meilleur travaille sur les voix dans cet album</description>
+                </entite>
+                <entite title="le fil">
+                   <auteur>Camille</auteur>
+                   <description>C'est bien du camille option de procuration ;)</description>
+                        <date_emprunt>Nov 2006</date_emprunt>
+                </entite>
+                <entite title="giants of jazz play brassens">
+                   <auteur>Brassens</auteur>
+                   <date_emprunt>Nov 2006</date_emprunt>
+                   <description>C'est du haut niveau, sur certaines chansons Brassens chante</description>
+                </entite>
+                <entite title="era">
+                   <auteur>Era</auteur>
+                   <description>Musique originale, dommage que ça tourne tout autour du même thème</description>
+                        <date_emprunt>Nov 2006</date_emprunt>
+                </entite>
+                <entite title="l'amour parfait">
+                   <auteur>Cali</auteur>
+                   <date_emprunt>Nov 2006</date_emprunt>
+                </entite>
+                <entite title="La parisienne">
+                   <auteur>Marie-Paule Belle</auteur>
+                   <date_emprunt>Nov 2006</date_emprunt>
+                </entite>
+                <entite title="Parklife">
+                   <auteur>Blur</auteur>
+                   <date_emprunt>Nov 2006</date_emprunt>
+                </entite>
+                <entite title="No need to argue">
+                  <auteur>The cranberries</auteur>
+                  <date_emprunt>Nov 2006</date_emprunt>
+                </entite>
+                <entite title="Autour de Lucie">
+                   <auteur>Lucie</auteur>
+                   <date_emprunt>Nov 2006</date_emprunt>
+                </entite>
+                <entite title="Live in Wembley'86">
+                   <auteur>Queen</auteur>
+                   <date_emprunt>Nov 2006</date_emprunt>
+                   <description>première écoute, c'est top... la vidéo doit être trop top à voir</description>
+                </entite>
+                <entite title="Live acoustic">
+                   <auteur>AstonVilla</auteur>
+                   <date_emprunt>Nov 2006</date_emprunt>
+                </entite>
+                <entite title="Mission">
+                   <auteur>Les nonnes troppo</auteur>
+                   <date_emprunt>Dec 2006</date_emprunt>
+             </entite>
+             <entite title="Pierpoljak">
+                <auteur>Pierpoljak</auteur>
+                <date_emprunt>Dec 2006</date_emprunt>
+             </entite>
+             <entite title="a table">
+                <auteur>Nicolas Bacchus</auteur>
+                <date_emprunt>Jan 2007</date_emprunt>
+                <description>a acquérir, c'est vraiement top, une belle voix, ironie, parodie...</description>
+             </entite>
+             <entite title="menteur">
+                <auteur>Cali</auteur>
+                <date_emprunt>Jan 2007</date_emprunt>
+             </entite>
+             <entite title="New Yorcoeur">
+                <auteur>Charlelie Couture</auteur>
+                <date_emprunt>Jan 2007</date_emprunt>
+             </entite>
+             <entite title="The living road">
+                <auteur>Lhasa</auteur>
+                <date_emprunt>Jan 2007</date_emprunt>
+                <description>Je l'ai déjà à la maison c'était pour pas le ramener :p</description>
+             </entite>
+             <entite title="Fan live, Studio live">
+                <auteur>Pascal Obispo</auteur>
+                <date_emprunt>Fev 2007</date_emprunt>
+                <description>Très bonne surprise, ce n'est pas vraiement le style de musique que j'écoute, mais j'aime beaucoup le voix qui monte assez haut, par contre petit bémol tout de même, des fois(rarement tout de même, une ou deux fois sur le live) ça ne fait pas chanter</description>
+             </entite>
+             <entite title="Fantaisie militaire">
+                <auteur>Bashung</auteur>
+                <date_emprunt>Fev 2007</date_emprunt>
+             </entite>
+             <entite title="Osez Joséphine">
+                <auteur>Bashung</auteur>
+                <date_emprunt>Fev 2007</date_emprunt>
+             </entite>
+             <entite title="Notre époque">
+                <date_emprunt>Mars 2007</date_emprunt>
+                <auteur>Tarmac</auteur>
+             </entite>
+             <entite title="Manges tes morts">
+                <date_emprunt>Mars 2007</date_emprunt>
+                <auteur>Têtes raides</auteur>
+             </entite>
+             <entite title="Remords et tristes pets">
+                <date_emprunt>Mars 2007</date_emprunt>
+                <auteur>Les VRP</auteur>
+             </entite>
+        </categorie>
+	<categorie name="DVD">
+		<entite title="Atomik circus">
+                   <date_emprunt>oct 2006</date_emprunt>
+                   <auteur>Avec Paradis,...</auteur>
+                        <description>Un film complètement déjanté, il faut être dans le trip (mélange de gore et humour) c'est particulier</description>
+		</entite>
+                <entite title="Volte/Face">
+                   <auteur>Avec Travolta, Cages</auteur>
+                        <date_emprunt>Nov 2006</date_emprunt>
+		</entite>
+                <entite title="Familly business">
+                   <auteur>Avec Sean Connerie, Dustin Hoffman, ...</auteur>
+                   <date_emprunt>Nov 2006</date_emprunt>
+                </entite>
+                <entite title="Le journal de Bridget Jones">
+                   <auteur>Avec Renée ZellWeger, Hugh Grant, Colin Firth ...</auteur>
+                   <date_emprunt>Dec 2006</date_emprunt>
+                </entite>
+                <entite title="Un monde parfait">
+                   <auteur>Clint Eastwood, Avec Clint Eastwood, Kevin Costner</auteur>
+                   <date_emprunt>Dec 2006</date_emprunt>
+                </entite>
+                <entite title="Cravate club">
+                   <auteur>Charles Berling, Edouard Baer</auteur>
+                   <date_emprunt>Fev 2007</date_emprunt>
+                </entite>
+                <entite title="Princess Mononoké">
+                   <auteur>MIYAZAKI</auteur>
+                   <date_emprunt>Fev 2007</date_emprunt>
+                   <description>Une référence dans les mangas, histoire original sur le thèmes des croyances.</description>
+                </entite>
+                <entite title="Papa">
+                   <auteur>Avec Alain Chabat</auteur>
+                   <date_emprunt>Fev 2007</date_emprunt>
+                   <description>Film très fort, une famille perd un de ces enfants, (noyade par négligeance). On ne connait pas le contexte, un père voyage avec son fils, périple drôle, mais vite rattraper par ce drame. Un voyage intense, rapprochant encore le père avec son fils.</description>
+                </entite>
+                <entite title="Kuzco">
+                   <auteur>Disney</auteur>
+                   <date_emprunt>Mars 2007</date_emprunt>
+                   <description>Drôle mais pas exceptionnel</description>
+                </entite>
+                <entite title="Indiane Jones">
+                   <auteur> de Spielberg avec Harrisson Ford</auteur>
+                   <date_emprunt>Mars 2007</date_emprunt>
+                </entite>
+                <entite title="Abyss">
+                   <auteur> de James Cameron avec Mary Elizabeth Mastrantonio et Michael Biehn</auteur>
+                   <date_emprunt>Avr 2007</date_emprunt>
+                </entite>
+                <entite title="Ray">
+                   <auteur>de Taylor Hackford avec Jamie Foxx</auteur>
+                   <date_emprunt>Avr 2007</date_emprunt>
+                </entite>
+                <entite title="Thomas Crown">
+                   <auteur>Avec Pierce Brosnan et Rene Russo</auteur>
+                   <date_emprunt>Avr 2007</date_emprunt>
+                </entite>
+                <entite title="Sade">
+                   <auteur>de Benoit Jacquot Avec Daniel Auteuil</auteur>
+                   <date_emprunt>Mai 2007</date_emprunt>
+                </entite>
+                <entite title="Donnie Darko">
+                   <auteur>De Richard Kelly</auteur>
+                   <date_emprunt>Mai 2007</date_emprunt>
+                </entite>
+                <entite title="Le Grand blond">
+                   <auteur>Avec Pierre Richard</auteur>
+                   <date_emprunt>Juin 2007</date_emprunt>
+                   <description>duologie du grand blond avec Pierre Richard</description>
+                </entite>
+                <entite title="sailor et loula">
+                   <auteur> De David Lynch  avec Nicolas Cage et Laura Dern</auteur>
+                   <date_emprunt>Juin 2007</date_emprunt>
+                </entite>
+                <entite title="Podium">
+                   <auteur>Avec Benoit Poelvoorde et Jeau Paul Rouve</auteur>
+                   <date_emprunt>Juin 2007</date_emprunt>
+                </entite>
+                <entite title="Crustacés et coquillages">
+                   <auteur>Une comédie de olivier Ducastel et Jacques Martineau</auteur>
+                   <date_emprunt>Juin 2007</date_emprunt>
+                </entite>
+                <entite title="Vampire Hunter D">
+                   <auteur>? Animation</auteur>
+                   <date_emprunt>Juillet 2007</date_emprunt>
+                   <description>Mi-homme mi-vampire, D est un chasseur de vampire, sympa, apparement il y a plusieurs opus à voir</description>
+                </entite>
+                <entite title="La ligue des Gentlemen extraordinaires">
+                   <auteur>De Stephen Norrington avec Sean Connery</auteur>
+                   <date_emprunt>Juillet 2007</date_emprunt>
+                   <description>Dès la première scène, on comprend qu'il n'y aura pas grand chose à comprendre ;) Dès la première scène de Sean Connery, on comprend qu'il voulait refaire un James Bond mais qu'il était trop vieux, alors il s'est inventé ça ! Le meilleur bide superproduction que j'ai vu.</description>
+                </entite>
+	</categorie>
+	<categorie name="Livre">
+	</categorie>
+        <categorie name="Jeux">
+           <entite title="Keythedral">
+              <auteur>Richard Breese</auteur>
+              <date_emprunt>Fev 2007</date_emprunt>
+              <description>Le but du jeux est de participer à la construction de la cathédrale. Chaque souverain (joueur), doit fournir les différentes briques de l'édifices en payant avec des ressources.<br/> les champs de ressources sont définis en début de partie par un placement de tuile, à deux jeux interessant, mais le placement au départ est très important, sinon on ne peut acquérir de ressources, petit bémol, début raté => partie foutu</description>
+           </entite>
+           <entite title="Colossus Arena">
+              <auteur>Reiner Knizia</auteur>
+              <date_emprunt>Fev 2007</date_emprunt>
+              <description>Jouer uniquement à 2. Manque certains de tactique, beaucoup de chance... Le principe : Une arène de monstre, on pari sur ceux qui vont survivre, le thème et l'ambiance sont interessants, le jeux en lui même manque d'interet</description>
+           </entite>
+           <entite title="Bric broc">
+              <auteur>dominique Ehrhard</auteur>
+              <date_emprunt>Fev 2006</date_emprunt>
+              <description>Petit jeux dans boite métal, comme les éléphants. Pas eu le temps de jouer, c'est une sorte de mémorie, la variante semble super interessante pour la mémoire. Le principe : 36 cartes avec 3 objets de la brocante, chaque joueur à son tour choisi une carte, le but étant de récupérer le maximum de tous les objets. Dans la variante on cache ce qu'on a pris, il faut donc ce rappeler qui a pris quoi.</description>
+           </entite>
+           <entite title="Thor">
+              <auteur>Reiner Knizia</auteur>
+              <date_emprunt>mars 2007</date_emprunt>
+              <description>Un peu dans l'esprit de Colossus Arena, je viens de voir que c'est le même auteur, voilà le pourquoi du comment. Moins de chance, un peu plus de tactique, on a eu le temps de jouer que 2 fois. C'est vrai que la 2ème partie était plus interessante. C'est pas du super niveau, mais c'est à réessayer. Le but est de faire des offrandes aux dieux, choisir nos préférés, en fonction des dernières offrandes uniquement on fait le compte, c'est ce que j'ai trouvé de dommage aux premiers abords, mais aps réflexion ça peut faire partie de la tactique de jeux.</description>
+           </entite>
+        </categorie>
+</emprunt>
