@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<BDTheque>
+<entite serie="Morea" title="Morea T3">
+<description>Ayant les 2 premiers, il faut les suivants, j'aime
+				beaucoup</description>
+<auteur>Arleston,Latil Labrosse</auteur>
+</entite>
+<entite serie="Morea" title="Morea T4">
+<description/>
+<auteur>Arleston,Latil Labrosse</auteur>
+</entite>
+<entite serie="Princes" title="Princes d'Arklan T1">
+<description/>
+<auteur>Gaudin, Sieurat</auteur>
+</entite>
+<entite serie="Princes" title="Princes d'Arklan T2">
+<description/>
+<auteur>Gaudin, Sieurat</auteur>
+</entite>
+<entite serie="Princes" title="Princes d'Arklan T3">
+<description/>
+<auteur>Gaudin, Sieurat</auteur>
+</entite>
+<entite serie="Morgana" title="Morgana T1">
+<description>première trilogie, assez prenant, le fin de la trilogie
+				laisse présager une suite plus ennuyeuse</description>
+<auteur>Alberti, Enoch</auteur>
+</entite>
+<entite serie="Morgana" title="Morgana T2">
+<description/>
+<auteur>Alberti, Enoch</auteur>
+</entite>
+<entite serie="Morgana" title="Morgana T3">
+<description/>
+<auteur>Alberti, Enoch</auteur>
+</entite>
+<entite serie="Le" title="Le lievre de mars">
+<description/>
+<auteur>Cothias,Parras</auteur>
+</entite>
+<entite serie="Le" title="Le lievre de mars 2">
+<description/>
+<auteur>Cothias,Parras</auteur>
+</entite>
+<entite serie="Le" title="Le lievre de mars 3">
+<description/>
+<auteur>Cothias,Parras</auteur>
+</entite>
+<entite serie="Le" title="Le lievre de mars 4">
+<description>Fin du premier cycle, d'après les critiques la série
+				aurait du s'arréter là</description>
+<auteur>Cothias,Parras</auteur>
+</entite>
+<entite serie="Le" title="Le lievre de mars 5">
+<description/>
+<auteur>Cothias,Parras</auteur>
+</entite>
+<entite serie="Le" title="Le lievre de mars 6">
+<description>Je trouvais les critiques sévère, mais après avoir lu le
+				9 je comprends c'est du n'importe quoi, un ne sais pas ou le
+				scénario va nous emmener, généralement c'est une qualité mais là ...
+			</description>
+<auteur>Cothias,Parras</auteur>
+</entite>
+<entite serie="Le" title="Le lievre de mars 7">
+<description/>
+<auteur>Cothias,Parras</auteur>
+</entite>
+<entite serie="Le" title="Le lievre de mars 8">
+<description/>
+<auteur>Cothias,Guéra</auteur>
+</entite>
+<entite serie="Le" title="Le lievre de mars 9">
+<description>Le scénariste devait vouloir finir rapidement, plus
+				d'une dizaine de page réécrite, par un autre dessinateur d'accord
+				mais c'est de la bue =&gt; je pense qu'après ce flop il n'aura jamais
+				de suite</description>
+<auteur>Cothias,Guéra</auteur>
+</entite>
+<entite title="Atalante">
+<description/>
+<auteur>Crisse</auteur>
+</entite>
+<entite serie="Atalante" title="Atalante T2">
+<description/>
+<auteur>Crisse</auteur>
+</entite>
+<entite serie="Atalante" title="Atalante T3">
+<description/>
+<auteur>Crisse</auteur>
+</entite>
+<entite serie="Marlysa" title="Marlysa T1 le masque">
+<description/>
+<auteur>Gaudin Danard</auteur>
+</entite>
+<entite serie="Marlysa" title="Marlysa T2 l'ombre de Dompour">
+<description/>
+<auteur>Gaudin Danard</auteur>
+</entite>
+<entite serie="Marlysa" title="Marlysa T3 l'autre côté">
+<description/>
+<auteur>Gaudin Danard</auteur>
+</entite>
+<entite serie="Marlysa" title="Marlysa T4  Bragal">
+<description/>
+<auteur>Gaudin Danard</auteur>
+</entite>
+<entite serie="Marlysa" title="Marlysa T5 le Thaumaturge">
+<description>Fin du premier cycle : toujours sur le thème combat,
+				bien contre mal, l'équipe est assez sympathique</description>
+<auteur>Gaudin Danard</auteur>
+</entite>
+<entite serie="Marlysa" title="Marlysa T6 la femme vie">
+<description>On ne retrouve que Marlysa, c'est décevant, mais en même
+				temps c'est mieux, on continue sur le personnage principale. Ce tome
+				ce suffit à lui même =&gt; laisse présagé des suites comme troll de
+				troy</description>
+<auteur>Gaudin Danard</auteur>
+</entite>
+<entite serie="Les" title="Les foret d'Opale T1 Le bracelet de Cohars">
+<description/>
+<auteur>Arleston Pellet</auteur>
+</entite>
+<entite serie="Les" title="Les foret d'Opale T2 L'envers du grimoire">
+<description/>
+<auteur>Arleston Pellet</auteur>
+</entite>
+<entite serie="Les" title="Les foret d'Opale T3 La cicatrice verte">
+<description/>
+<auteur>Arleston Pellet</auteur>
+</entite>
+<entite serie="Les" title="Les foret d'Opale T4 Les geoles de nénuphe">
+<description/>
+<auteur>Arleston Pellet</auteur>
+</entite>
+<entite serie="Pandora" title="Pandora I le régent fou">
+<description>Une jeune princesse pucelle, qui ne doit pas le rester
+				longtemps, un jolie porteur du Toh (objet magique), un protecteur,
+				un bon trio pour une série ou les tomes devrait à priori ce suffir à
+				eux même, l'histoire générale ne semble pas très importante
+			</description>
+<auteur>Allart Stoffel</auteur>
+</entite>
+<entite serie="Pandora" title="Pandora II les flibustiers du grand fleuve">
+<description/>
+<auteur>Allart Stoffel</auteur>
+</entite>
+<entite serie="Pandora" title="Pandora III Le porteur du nôth">
+<description/>
+<auteur>Allart Stoffel</auteur>
+</entite>
+<entite serie="Pandora" title="Pandora IV Tohu-bohu">
+<description/>
+<auteur>Allart Stoffel</auteur>
+</entite>
+<entite serie="Geste" title="Geste des chevaliers dragons (La) T1 Jaïna">
+<description/>
+<auteur>Ange Varanda</auteur>
+</entite>
+<entite serie="Geste" title="Geste des chevaliers dragons (La) T2 Akanah">
+<description/>
+<auteur>Ange Briones</auteur>
+</entite>
+<entite serie="Geste" title="Geste des chevaliers dragons (La) T3 Le pays de non-vie">
+<description/>
+<auteur>Ange Guinebaud</auteur>
+</entite>
+<entite serie="Geste" title="Geste des chevaliers dragons (La) T4 Brisken">
+<description/>
+<auteur>Ange Briones</auteur>
+</entite>
+<entite serie="Geste" title="Geste des chevaliers dragons (La) T5 Les jardins du palais">
+<description/>
+<auteur>Ange Paty</auteur>
+</entite>
+<entite serie="Witness" title="Witness 4 T1 A coeur perdu">
+<description/>
+<auteur>Arnoux Millien</auteur>
+</entite>
+<entite serie="Witness" title="Witness 4 T2 L'icône sans mémoire">
+<description/>
+<auteur>Arnoux Millien</auteur>
+</entite>
+<entite serie="Witness" title="Witness 4 T3 En vert et contre tous">
+<description/>
+<auteur>Arnoux Millien</auteur>
+</entite>
+<entite serie="Le" title="Le chant d'excalibur T1 le reveil de Merlin">
+<description/>
+<auteur>Arleston Hübsch</auteur>
+</entite>
+<entite serie="Le" title="Le chant d'excalibur T2 le sidhe aux milles charmes">
+<description/>
+<auteur>Arleston Hübsch</auteur>
+</entite>
+<entite serie="Le" title="Le chant d'excalibur T3 la griffe de rome">
+<description/>
+<auteur>Arleston Hübsch</auteur>
+</entite>
+<entite serie="Le" title="Le chant d'excalibur T4 la colère de Merlin">
+<description>Rien de très nouveaux, c'est du Arleston tout cracher,
+				quelques pics à Astérix, toujours une femme comme Héroïne ... mais
+				on ne peut pas être dessus si on aime ;)</description>
+<auteur>Arleston Hübsch</auteur>
+</entite>
+<entite serie="Mangecoeur" title="Mangecoeur T1 La chrysalide Diaprée">
+<description/>
+<auteur>Gallié Andreae</auteur>
+</entite>
+<entite serie="Mangecoeur" title="Mangecoeur T2 Dans le jeu des Miroirs">
+<description/>
+<auteur>Gallié Andreae</auteur>
+</entite>
+<entite serie="Mangecoeur" title="Mangecoeur T3 Le rève d'Argemme">
+<description/>
+<auteur>Gallié Andreae</auteur>
+</entite>
+<entite serie="Mycroft" title="Mycroft Inquisitor T1 ">
+<description/>
+<auteur>Arleston,Latil Manini</auteur>
+</entite>
+<entite serie="Mycroft" title="Mycroft Inquisitor T2">
+<description/>
+<auteur>Arleston,Latil Manini</auteur>
+</entite>
+<entite serie="Salem" title="Salem la noire T1 La pierre de Mort-Levée">
+<description>BD de dérision, drôle, dans un univers magique
+			</description>
+<auteur>Cordurié Créty</auteur>
+</entite>
+<entite serie="Salem" title="Salem la noire T2 Le diadème des ames">
+<description/>
+<auteur>Cordurié Créty</auteur>
+</entite>
+<entite serie="Salem" title="Salem la noire T3 Tongeren et Finicho">
+<description/>
+<auteur>Cordurié Créty</auteur>
+</entite>
+<entite serie="Seigneur" title="Seigneur d'agartha T1 La dette">
+<description>Si vous croyez être seul dans l'univers c'est sans
+				compter avec les seigneurs d'agartha. Seule les filles peuvent
+				survivre sur la terre, un rejeton à subsiter, avec tous les efforts
+				de sa mère.... c'est sympa, comme beaucoup on a peur que ça traine
+				en longueur, très bonne entame en tout cas.</description>
+<auteur>Plongeon Briones</auteur>
+</entite>
+<entite serie="Seigneur" title="Seigneur d'agartha T2 L'oracle">
+<description/>
+<auteur>Plongeon Briones</auteur>
+</entite>
+<entite serie="Machefer" title="Machefer T01 une huile en fuite">
+<description>Série finie, humour et action sont au rdv dans ces
+				aventures, a priori dans le futur, ou les connaissances
+				technologique pour la fabrication des certains composant ont été
+				perdu (ou détruit?)</description>
+<auteur>Duval Vastra</auteur>
+</entite>
+<entite serie="Machefer" title="Machefer T02 le désert des carcasses">
+<description/>
+<auteur>Duval Vastra</auteur>
+</entite>
+<entite serie="Machefer" title="Machefer T03 les 24 heures du monde">
+<description/>
+<auteur>Duval Vastra</auteur>
+</entite>
+<entite serie="Slhoka" title="Slhoka T01 L'ile oubliée">
+<description>Une guerre entre 2 peuples, un peuple oublié avec ces
+				dieux, qui veulent sauver son peuple, monde interressant, scénario
+				sans trop de nouveauté</description>
+<auteur>Godderidge Floch</auteur>
+</entite>
+<entite serie="Slhoka" title="Slhoka T02 Les jardins de Sangali">
+<description/>
+<auteur>Godderidge Floch</auteur>
+</entite>
+<entite serie="Slhoka" title="Slhoka T03 Le monde blanc">
+<description/>
+<auteur>Godderidge Floch</auteur>
+</entite>
+<entite serie="Alzéor" title="Alzéor Mondraggo T01 La pierre blanche">
+<description>Dans un monde moyennageux et magique, une grosse part de
+				dérision, c'est écrit par un mec, et c'est pour ça que c'est drôle,
+				(il a du avoir des pb avec ça copine ;) )</description>
+<auteur>Makyo Caryn</auteur>
+</entite>
+<entite serie="Alzéor" title="Alzéor Mondraggo T02 Le prince rouge">
+<description/>
+<auteur>Makyo Caryn</auteur>
+</entite>
+<entite serie="Alzéor" title="Alzéor Mondraggo T03 la clef de l'amour">
+<description>Album satirique sur les ceintures de chasteté, résume
+				typiquement le comportement masculin (avec les montés d'hormone, les
+				femmes nous tiennent par le bout du nez)</description>
+<auteur>Makyo Caryn</auteur>
+</entite>
+<entite serie="Travis" title="Travis T01 Huracan">
+<description>Scénario très prenant, pour l'instant chaque tome donne
+				des réponses aux questions posées, se dévore</description>
+<auteur>Duval Quet</auteur>
+</entite>
+<entite serie="Travis" title="Travis T02 Operation minotaure">
+<description/>
+<auteur>Duval Quet</auteur>
+</entite>
+<entite serie="Travis" title="Travis T03 Agent du chaos">
+<description/>
+<auteur>Duval Quet</auteur>
+</entite>
+<entite serie="Travis" title="Travis T04 Protocole Oslo">
+<description/>
+<auteur>Duval Quet</auteur>
+</entite>
+<entite serie="Travis" title="Travis T05 Cybernation">
+<description>Fin du premier cycle, Super scénario, dans le futur
+				2050, intrigue planétaire, sur fond de multiinternationnal qui
+				prenne le pouvoir de la planète ...</description>
+<auteur>Duval Quet</auteur>
+</entite>
+<entite serie="Travis" title="Travis T06.1 Le Hammeau des chènes">
+<description/>
+<auteur>Duval Quet</auteur>
+</entite>
+<entite serie="Travis" title="Travis T06.2 Topkapi">
+<description/>
+<auteur>Duval Alizon</auteur>
+</entite>
+<entite serie="Travis" title="Travis T07 La Tarentule">
+<description>Fin du second cycle, des révélations sur le rôle de
+				Travis dans tout ça</description>
+<auteur>Duval Quet</auteur>
+</entite>
+<entite serie="La" title="La cicatrice du souvenir T01 Les évadés de Kanash">
+<description/>
+<auteur>Ange Paty</auteur>
+</entite>
+<entite serie="La" title="La cicatrice du souvenir T02 Le cristal de Baïn">
+<description/>
+<auteur>Ange Paty</auteur>
+</entite>
+<entite serie="La" title="La cicatrice du souvenir T03 Le livre d'Erkor">
+<description/>
+<auteur>Ange Paty</auteur>
+</entite>
+<entite serie="le" title="le sang du dragon T01 au delà des brumes">
+<description>Série en cours. Scénario très prenant. Au 18ème pirates,
+				et monde magique elfique. Les elfes vivent dans un monde non visible
+				des humains, certaines portent permettent de passer d'un monde à
+				l'autre. Un pirate connaissant ces portes devient le maitre ;)
+			</description>
+<auteur>Istin Michel</auteur>
+</entite>
+<entite serie="le" title="le sang du dragon T02 la pierre de Gaeldenn">
+<description/>
+<auteur>Istin Michel</auteur>
+</entite>
+<entite serie="Merlin" title="Merlin T01 La colère d'Ahès">
+<description>Série en cours, Merlin fils du dieu du vent et d'un
+				vierge, l'élu, le messie des peuples magiques...</description>
+<auteur>Istin Lambert</auteur>
+</entite>
+<entite serie="Merlin" title="Merlin T02 L'éveil du pouvoir">
+<description/>
+<auteur>Istin Lambert</auteur>
+</entite>
+<entite serie="Merlin" title="Merlin T03 Le Cromm-Cruach">
+<description/>
+<auteur>Istin Lambert</auteur>
+</entite>
+<entite serie="Merlin" title="Merlin T04 Avalon">
+<description/>
+<auteur>Istin Lambert</auteur>
+</entite>
+<entite serie="Merlin" title="Merlin T05 Brendann le maudit">
+<description/>
+<auteur>Istin Lambert</auteur>
+</entite>
+<entite serie="Merlin" title="Merlin T06 L'ermite et le nid">
+<description/>
+<auteur>Istin Lambert</auteur>
+</entite>
+<entite serie="Merlin" title="Merlin T07 Le chaudron de Bran-le-Béni">
+<description/>
+<auteur>Istin Lambert</auteur>
+</entite>
+<entite serie="Merlin" title="Merlin T08 L'aube des armes">
+<description/>
+<auteur>Istin Lambert</auteur>
+</entite>
+<entite serie="Les" title="Les brumes d'Asceltis T01 La citadelle Oslanne">
+<description>Série en cours. 8000 ans ce sont écoulés depuis
+				l'affrontement entre les élus de 4 Dieux contre Azell (dieu rebelle
+				ayant pris forme sur terre), Azell doit se réincarner et soumettre
+				le royaume d'Asceltis au Chaos</description>
+<auteur>Jarry Istin</auteur>
+</entite>
+<entite serie="Les" title="Les brumes d'Asceltis T02 Le dieu Lépreux">
+<description/>
+<auteur>Jarry Istin</auteur>
+</entite>
+<entite serie="Les" title="Les brumes d'Asceltis T03 Le roi Akorenn">
+<description/>
+<auteur>Jarry Istin</auteur>
+</entite>
+<entite serie="Carmen" title="Carmen Mc Callum T01 Jukurpa">
+<description>Auteur de Travis, même univers 2050, influence
+				politique, Carmen chasseur de prime, travail maintenant pour l'ONU
+				en indépendante</description>
+<auteur>Duval Gess</auteur>
+</entite>
+<entite serie="Carmen" title="Carmen Mc Callum T02 Mare Tranquilitatis">
+<description/>
+<auteur>Duval Gess</auteur>
+</entite>
+<entite serie="Carmen" title="Carmen Mc Callum T03 Intrusions">
+<description/>
+<auteur>Duval Gess</auteur>
+</entite>
+<entite serie="Carmen" title="Carmen Mc Callum T04 Samuel Earp">
+<description/>
+<auteur>Duval Gess</auteur>
+</entite>
+<entite serie="Carmen" title="Carmen Mc Callum T05 Deus Ex Machina">
+<description/>
+<auteur>Duval Gess</auteur>
+</entite>
+<entite serie="Carmen" title="Carmen Mc Callum T06 Le sixième doigt du Pendjab">
+<description/>
+<auteur>Duval Gess</auteur>
+</entite>
+<entite serie="Carmen" title="Carmen Mc Callum T07 L'appel de Baïkonour">
+<description/>
+<auteur>Duval Gess</auteur>
+</entite>
+<entite serie="Carmen" title="Carmen + Travis Les récits (Volume 1)">
+<description>Pour les fans de l'univers de Duval, je trouves les
+				récits interessants, précise le monde de Carmen et Travis. Par
+				contre le collectif rend la lecture fastitueuse, couleur, personnage
+				non simulaire, il faut retrouver ses petits à chaque récit
+			</description>
+<auteur>Duval Collectif de dessinateur</auteur>
+</entite>
+<entite serie="Carmen" title="Carmen + Travis Les récits (Volume 2)">
+<description/>
+<auteur>Duval Collectif de dessinateur</auteur>
+</entite>
+<entite serie="L'épée" title="L'épée de Cristal T01 Le parfum des Grinches">
+<description/>
+<auteur>Goupil Crisse</auteur>
+</entite>
+<entite serie="L'épée" title="L'épée de Cristal T02 Le regard de Wenlok">
+<description/>
+<auteur>Goupil Crisse</auteur>
+</entite>
+<entite serie="L'épée" title="L'épée de Cristal T03 La main de la Mangrove">
+<description/>
+<auteur>Goupil Crisse</auteur>
+</entite>
+<entite serie="L'épée" title="L'épée de Cristal T04 Le cri du Grouse">
+<description/>
+<auteur>Goupil Crisse</auteur>
+</entite>
+<entite serie="L'épée" title="L'épée de Cristal T05 Le goût de Sulfur">
+<description/>
+<auteur>Goupil Crisse</auteur>
+</entite>
+<entite serie="L'ancètre" title="L'ancètre programmé (2026)T01 Le temps de l'éveil">
+<description>Le monde en 2024-2028, la planète est a son apogée
+				capitalistique. Une supercaculateur, se reprogramme pour créer une
+				nouvelle réligion et ainsi sauvegarder l'humanité... </description>
+<auteur>Ploy Malnati</auteur>
+</entite>
+<entite serie="L'ancètre" title="L'ancètre programmé (2026)T02 Le temps de la conscience">
+<description/>
+<auteur>Ploy Malnati</auteur>
+</entite>
+<entite serie="L'ancètre" title="L'ancètre programmé (2026)T03 Le temps du jugement">
+<description/>
+<auteur>Ploy Malnati</auteur>
+</entite>
+<entite serie="L'ancètre" title="L'ancètre programmé (2026)T04 Le temps du savoir">
+<description/>
+<auteur>Ploy Pagot,Di Bernardo,Brandi</auteur>
+</entite>
+<entite serie="L'ancètre" title="L'ancètre programmé (2026)T05 La révélation">
+<description/>
+<auteur>Ploy Di Bernardo,Brandi</auteur>
+</entite>
+<entite serie="Fides" title="Fides (2029) T01 Opus matrice">
+<description>Suite de L'ancètre programmé 2026. La destruction du
+				super calculateur entraine une secte au pouvoir. Les
+				contre-révélationiste tente de mettre fin à cette magnifique
+				manipulation des foules</description>
+<auteur>Ploy Pagot,Loïc</auteur>
+</entite>
+<entite serie="Fides" title="Fides (2029) T02 Fines matrice">
+<description/>
+<auteur>Ploy Pagot,Loïc</auteur>
+</entite>
+<entite serie="Fides" title="Fides (2029) T03 inferna">
+<description/>
+<auteur>Ploy Pagot</auteur>
+</entite>
+<entite serie="Fides" title="Fides (2029) T04 redemptio">
+<description/>
+<auteur>Ploy Pagot</auteur>
+</entite>
+<entite serie="Kookaburra" title="Kookaburra T01 Planète Dakoï">
+<description/>
+<auteur>Crisse</auteur>
+</entite>
+<entite serie="Kookaburra" title="Kookaburra T02 Secteur WBH3">
+<description/>
+<auteur>Crisse</auteur>
+</entite>
+<entite serie="Kookaburra" title="Kookaburra T03 Projet equinoxe">
+<description/>
+<auteur>Crisse</auteur>
+</entite>
+<entite serie="Kookaburra" title="Kookaburra T04 Système ragnarok">
+<description/>
+<auteur>Crisse Mitric</auteur>
+</entite>
+<entite serie="Kookaburra" title="Kookaburra T05 Retour à Terradoes">
+<description/>
+<auteur>Crisse Mitric</auteur>
+</entite>
+<entite serie="Kookaburra" title="Kookaburra Universe T01 Le secret du sniper">
+<description/>
+<auteur>Crisse Mitric</auteur>
+</entite>
+<entite serie="Kookaburra" title="Kookaburra Universe T02 Taman Kha">
+<description/>
+<auteur>Ange Paty</auteur>
+</entite>
+<entite serie="Kookaburra" title="Kookaburra Universe T03 Mano Kha">
+<description/>
+<auteur>Ange Paty</auteur>
+</entite>
+<entite serie="Kookaburra" title="Kookaburra Universe T04 Skullface">
+<description/>
+<auteur>Gaudin Briones</auteur>
+</entite>
+<entite serie="Kookaburra" title="Kookaburra Universe T05 Les larmes de Gosharad">
+<description/>
+<auteur>Tackian Lamirand</auteur>
+</entite>
+<entite serie="Kookaburra" title="Kookaburra Universe T06 Le serment dakoïd">
+<description/>
+<auteur>Mitric Péru</auteur>
+</entite>
+<entite serie="Kaamelott" title="Kaamelott T01 L'armée du nécremant">
+<description/>
+<auteur>Astier Dupre</auteur>
+</entite>
+<entite serie="Le" title="Le sabre et l'épée T01 La yesha">
+<description/>
+<auteur>Chauvel Boivin</auteur>
+</entite>
+<entite serie="Le" title="Le sabre et l'épée T02 Au coeur des rivières et des lacs...">
+<description/>
+<auteur>Chauvel Boivin</auteur>
+</entite>
+<entite serie="Histoire" title="Histoire Secrete T01 Génèse">
+<description/>
+<auteur>Pécau Kordey</auteur>
+</entite>
+<entite serie="Histoire" title="Histoire Secrete T02 Le chateau des djinns">
+<description/>
+<auteur>Pécau Kordey</auteur>
+</entite>
+<entite serie="Histoire" title="Histoire Secrete T03 Le Graal de Montségur">
+<description/>
+<auteur>Pécau Sudzuka</auteur>
+</entite>
+<entite serie="Histoire" title="Histoire Secrete T04 Les clefs de Saint Pierre">
+<description/>
+<auteur>Pécau Pilipovic</auteur>
+</entite>
+<entite serie="Chaos" title="Chaos T01 Elfes Noirs">
+<description/>
+<auteur>Falba Tasiaux</auteur>
+</entite>
+<entite serie="Chaos" title="Chaos T02 L'ombre du doute">
+<description/>
+<auteur>Falba Tasiaux</auteur>
+</entite>
+<entite serie="Chaos" title="Chaos T03 La fin d'un cycle">
+<description/>
+<auteur>Falba Tasiaux</auteur>
+</entite>
+<entite serie="Anachron" title="Anachron T01 Le retour de la bète">
+<description>Au XXII siècle, Un consortium internationnal concerve
+				les planètes non encore prète (assez évoluer) des nouvelles
+				technologies. Thèmes interressant, mais le scénario n'est pas hyper
+				prenant, fait passer le temps.</description>
+<auteur>Cailleteau Jurion</auteur>
+</entite>
+<entite serie="Anachron" title="Anachron T02 Le septième capitaine">
+<description/>
+<auteur>Cailleteau Jurion</auteur>
+</entite>
+<entite serie="Anachron" title="Anachron T03 Le passeur des monts Kordils">
+<description/>
+<auteur>Cailleteau Jurion</auteur>
+</entite>
+<entite serie="Anachron" title="Anachron T04 L'héritage du héros">
+<description/>
+<auteur>Cailleteau Jurion</auteur>
+</entite>
+<entite serie="Anachron" title="Anachron T05 Pavillon noir sur la capricieuse">
+<description/>
+<auteur>Cailleteau Jurion</auteur>
+</entite>
+<entite serie="Nocturnes" title="Nocturnes rouges T01 Sang rouge">
+<description>Les vampires sont depuis toujours parmis nous. La terre
+				a retrouvé la tranquilité aps l'extermination des pretes noires.
+				Mais ils reviennent avec l'aide des vampires ... scénario est très
+				prenant!</description>
+<auteur>Nhieu</auteur>
+</entite>
+<entite serie="Nocturnes" title="Nocturnes rouges T02 Zéphyr">
+<description/>
+<auteur>Nhieu</auteur>
+</entite>
+<entite serie="Nocturnes" title="Nocturnes rouges T03 Tonnerre pourpre">
+<description/>
+<auteur>Nhieu</auteur>
+</entite>
+<entite serie="Nocturnes" title="Nocturnes rouges T04 Une seconde chance">
+<description/>
+<auteur>Nhieu</auteur>
+</entite>
+<entite serie="Les" title="Les arcanes de Midi Minuit T01 L'affaire de Nalta P312">
+<description>Policier dans la deuxieme ere industrielle, scénario
+				hyper prenant, dommage qu'il n'y ait pas vraiement de trame
+				directrice entre les tomes</description>
+<auteur>Gaudin Trichet</auteur>
+</entite>
+<entite serie="Les" title="Les arcanes de Midi Minuit T02 L'affaire de la ligne II">
+<description/>
+<auteur>Gaudin Trichet</auteur>
+</entite>
+<entite serie="Les" title="Les arcanes de Midi Minuit T03 L'affaire Colossos">
+<description/>
+<auteur>Gaudin Trichet</auteur>
+</entite>
+<entite serie="Les" title="Les arcanes de Midi Minuit T04 L'affaire des Oungan">
+<description/>
+<auteur>Gaudin Trichet</auteur>
+</entite>
+<entite serie="Le" title="Le dernier Troyen T01 Le cheval de Troie">
+<description>Mitologie galactique, sorte d'épopée d'Ulysse
+				galactique. J'aime bien l'univers, qui se cale sur la mitologie Grec
+				connu.</description>
+<auteur>Mangin Démarez</auteur>
+</entite>
+<entite serie="Le" title="Le dernier Troyen T02 La reine des Amazones">
+<description/>
+<auteur>Mangin Démarez</auteur>
+</entite>
+<entite serie="Le" title="Le dernier Troyen T03 Les lotophages">
+<description/>
+<auteur>Mangin Démarez</auteur>
+</entite>
+<entite serie="Le" title="Le dernier Troyen T04 Carthago">
+<description/>
+<auteur>Mangin Démarez</auteur>
+</entite>
+<entite title="Paradize">
+<description>Musique trop synthétique pour moi</description>
+<auteur>Indochine</auteur>
+</entite>
+<entite title="fff">
+<description/>
+<auteur>fff</auteur>
+</entite>
+<entite serie="Thomas" title="Thomas F4rsen">
+<description/>
+<auteur>Thomas Fersen</auteur>
+</entite>
+<entite serie="L'homme" title="L'homme du moment">
+<description>C'est du HK tout craché</description>
+<auteur>Alexis HK</auteur>
+</entite>
+<entite serie="t'es" title="t'es fou">
+<description/>
+<auteur>La tordue</auteur>
+</entite>
+<entite serie="au" title="au milieu des autres">
+<description>deçu, chanson sans trop de caractère</description>
+<auteur>Calogero</auteur>
+</entite>
+<entite serie="post" title="post partum">
+<description>je les pensais pechu, mais c'est mou</description>
+<auteur>Les innocents</auteur>
+</entite>
+<entite serie="Rachel" title="Rachel au rocher">
+<description>Rock tranquille, ambiance, lancinent (proche Saez)
+			</description>
+<auteur>Tue loup</auteur>
+</entite>
+<entite serie="grain" title="grain de sable">
+<description>Pas de changement c'est du Tryo, peut etre un meilleur
+				travaille sur les voix dans cet album</description>
+<auteur>Tryo</auteur>
+</entite>
+<entite serie="le" title="le fil">
+<description>C'est bien du camille option de procuration ;)
+			</description>
+<auteur>Camille</auteur>
+</entite>
+<entite serie="giants" title="giants of jazz play brassens">
+<description>C'est du haut niveau, sur certaines chansons Brassens
+				chante</description>
+<auteur>Brassens</auteur>
+</entite>
+<entite title="era">
+<description>Musique originale, dommage que ça tourne tout autour du
+				même thème</description>
+<auteur>Era</auteur>
+</entite>
+<entite serie="l'amour" title="l'amour parfait">
+<description/>
+<auteur>Cali</auteur>
+</entite>
+<entite serie="La" title="La parisienne">
+<description/>
+<auteur>Marie-Paule Belle</auteur>
+</entite>
+<entite title="Parklife">
+<description/>
+<auteur>Blur</auteur>
+</entite>
+<entite serie="No" title="No need to argue">
+<description/>
+<auteur>The cranberries</auteur>
+</entite>
+<entite serie="Autour" title="Autour de Lucie">
+<description/>
+<auteur>Lucie</auteur>
+</entite>
+<entite serie="Live" title="Live in Wembley'86">
+<description>première écoute, c'est top... la vidéo doit être trop
+				top à voir</description>
+<auteur>Queen</auteur>
+</entite>
+<entite serie="Live" title="Live acoustic">
+<description/>
+<auteur>AstonVilla</auteur>
+</entite>
+<entite title="Mission">
+<description/>
+<auteur>Les nonnes troppo</auteur>
+</entite>
+<entite title="Pierpoljak">
+<description/>
+<auteur>Pierpoljak</auteur>
+</entite>
+<entite serie="a" title="a table">
+<description>a acquérir, c'est vraiement top, une belle voix, ironie,
+				parodie...</description>
+<auteur>Nicolas Bacchus</auteur>
+</entite>
+<entite title="menteur">
+<description/>
+<auteur>Cali</auteur>
+</entite>
+<entite serie="New" title="New Yorcoeur">
+<description/>
+<auteur>Charlelie Couture</auteur>
+</entite>
+<entite serie="The" title="The living road">
+<description>Je l'ai déjà à la maison c'était pour pas le ramener :p
+			</description>
+<auteur>Lhasa</auteur>
+</entite>
+<entite serie="Fan" title="Fan live, Studio live">
+<description>Très bonne surprise, ce n'est pas vraiement le style de
+				musique que j'écoute, mais j'aime beaucoup le voix qui monte assez
+				haut, par contre petit bémol tout de même, des fois(rarement tout de
+				même, une ou deux fois sur le live) ça ne fait pas chanter
+			</description>
+<auteur>Pascal Obispo</auteur>
+</entite>
+<entite serie="Fantaisie" title="Fantaisie militaire">
+<description/>
+<auteur>Bashung</auteur>
+</entite>
+<entite serie="Osez" title="Osez Joséphine">
+<description/>
+<auteur>Bashung</auteur>
+</entite>
+<entite serie="Notre" title="Notre époque">
+<description/>
+<auteur>Tarmac</auteur>
+</entite>
+<entite serie="Manges" title="Manges tes morts">
+<description/>
+<auteur>Têtes raides</auteur>
+</entite>
+<entite serie="Remords" title="Remords et tristes pets">
+<description/>
+<auteur>Les VRP</auteur>
+</entite>
+<entite serie="Atomik" title="Atomik circus">
+<description>Un film complètement déjanté, il faut être dans le trip
+				(mélange de gore et humour) c'est particulier</description>
+<auteur>Avec Paradis,...</auteur>
+</entite>
+<entite title="Volte/Face">
+<description/>
+<auteur>Avec Travolta, Cages</auteur>
+</entite>
+<entite serie="Familly" title="Familly business">
+<description/>
+<auteur>Avec Sean Connerie, Dustin Hoffman, ...</auteur>
+</entite>
+<entite serie="Le" title="Le journal de Bridget Jones">
+<description/>
+<auteur>Avec Renée ZellWeger, Hugh Grant, Colin Firth ...</auteur>
+</entite>
+<entite serie="Un" title="Un monde parfait">
+<description/>
+<auteur>Clint Eastwood, Avec Clint Eastwood, Kevin Costner</auteur>
+</entite>
+<entite serie="Cravate" title="Cravate club">
+<description/>
+<auteur>Charles Berling, Edouard Baer</auteur>
+</entite>
+<entite serie="Princess" title="Princess Mononoké">
+<description>Une référence dans les mangas, histoire original sur le
+				thèmes des croyances.</description>
+<auteur>MIYAZAKI</auteur>
+</entite>
+<entite title="Papa">
+<description>Film très fort, une famille perd un de ces enfants,
+				(noyade par négligeance). On ne connait pas le contexte, un père
+				voyage avec son fils, périple drôle, mais vite rattraper par ce
+				drame. Un voyage intense, rapprochant encore le père avec son fils.
+			</description>
+<auteur>Avec Alain Chabat</auteur>
+</entite>
+<entite title="Kuzco">
+<description>Drôle mais pas exceptionnel</description>
+<auteur>Disney</auteur>
+</entite>
+<entite serie="Indiane" title="Indiane Jones">
+<description/>
+<auteur> de Spielberg avec Harrisson Ford</auteur>
+</entite>
+<entite title="Abyss">
+<description/>
+<auteur> de James Cameron avec Mary Elizabeth Mastrantonio et Michael
+				Biehn</auteur>
+</entite>
+<entite title="Ray">
+<description/>
+<auteur>de Taylor Hackford avec Jamie Foxx</auteur>
+</entite>
+<entite serie="Thomas" title="Thomas Crown">
+<description/>
+<auteur>Avec Pierce Brosnan et Rene Russo</auteur>
+</entite>
+<entite title="Sade">
+<description/>
+<auteur>de Benoit Jacquot Avec Daniel Auteuil</auteur>
+</entite>
+<entite serie="Donnie" title="Donnie Darko">
+<description/>
+<auteur>De Richard Kelly</auteur>
+</entite>
+<entite serie="Le" title="Le Grand blond">
+<description>duologie du grand blond avec Pierre Richard
+			</description>
+<auteur>Avec Pierre Richard</auteur>
+</entite>
+<entite serie="sailor" title="sailor et loula">
+<description/>
+<auteur> De David Lynch avec Nicolas Cage et Laura Dern</auteur>
+</entite>
+<entite title="Podium">
+<description/>
+<auteur>Avec Benoit Poelvoorde et Jeau Paul Rouve</auteur>
+</entite>
+<entite serie="Crustacés" title="Crustacés et coquillages">
+<description/>
+<auteur>Une comédie de olivier Ducastel et Jacques Martineau</auteur>
+</entite>
+<entite serie="Vampire" title="Vampire Hunter D">
+<description>Mi-homme mi-vampire, D est un chasseur de vampire,
+				sympa, apparement il y a plusieurs opus à voir</description>
+<auteur>? Animation</auteur>
+</entite>
+<entite serie="La" title="La ligue des Gentlemen extraordinaires">
+<description>Dès la première scène, on comprend qu'il n'y aura pas
+				grand chose à comprendre ;) Dès la première scène de Sean Connery,
+				on comprend qu'il voulait refaire un James Bond mais qu'il était
+				trop vieux, alors il s'est inventé ça ! Le meilleur bide
+				superproduction que j'ai vu.</description>
+<auteur>De Stephen Norrington avec Sean Connery</auteur>
+</entite>
+<entite title="Keythedral">
+<description>
+				Le but du jeux est de participer à la construction de la cathédrale.
+				Chaque souverain (joueur), doit fournir les différentes briques de
+				l'édifices en payant avec des ressources.
+				
+				les champs de ressources sont définis en début de partie par un
+				placement de tuile, à deux jeux interessant, mais le placement au
+				départ est très important, sinon on ne peut acquérir de ressources,
+				petit bémol, début raté =&gt; partie foutu
+			</description>
+<auteur>Richard Breese</auteur>
+</entite>
+<entite serie="Colossus" title="Colossus Arena">
+<description>Jouer uniquement à 2. Manque certains de tactique,
+				beaucoup de chance... Le principe : Une arène de monstre, on pari
+				sur ceux qui vont survivre, le thème et l'ambiance sont
+				interessants, le jeux en lui même manque d'interet</description>
+<auteur>Reiner Knizia</auteur>
+</entite>
+<entite serie="Bric" title="Bric broc">
+<description>Petit jeux dans boite métal, comme les éléphants. Pas eu
+				le temps de jouer, c'est une sorte de mémorie, la variante semble
+				super interessante pour la mémoire. Le principe : 36 cartes avec 3
+				objets de la brocante, chaque joueur à son tour choisi une carte, le
+				but étant de récupérer le maximum de tous les objets. Dans la
+				variante on cache ce qu'on a pris, il faut donc ce rappeler qui a
+				pris quoi.</description>
+<auteur>dominique Ehrhard</auteur>
+</entite>
+<entite title="Thor">
+<description>Un peu dans l'esprit de Colossus Arena, je viens de voir
+				que c'est le même auteur, voilà le pourquoi du comment. Moins de
+				chance, un peu plus de tactique, on a eu le temps de jouer que 2
+				fois. C'est vrai que la 2ème partie était plus interessante. C'est
+				pas du super niveau, mais c'est à réessayer. Le but est de faire des
+				offrandes aux dieux, choisir nos préférés, en fonction des dernières
+				offrandes uniquement on fait le compte, c'est ce que j'ai trouvé de
+				dommage aux premiers abords, mais aps réflexion ça peut faire partie
+				de la tactique de jeux.</description>
+<auteur>Reiner Knizia</auteur>
+</entite>
+</BDTheque>

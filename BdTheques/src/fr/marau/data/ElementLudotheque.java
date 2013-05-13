@@ -1,11 +1,11 @@
 package fr.marau.data;
 
 public class ElementLudotheque {
-	private String titre;
-	private String serie;
-	private String auteur;
-	private String editeur;
-	private String description;
+	private String titre = null;
+	private String serie = null;
+	private String auteur = null;
+	private String editeur = null;
+	private String description = null;
 	public String getTitre() {
 		return titre;
 	}
@@ -13,6 +13,11 @@ public class ElementLudotheque {
 		this.titre = titre;
 	}
 	public String getSerie() {
+		if( serie==null && titre!=null ){
+			int i = titre.indexOf(" ");
+			if( i>0 )
+				serie = titre.substring(0,i);
+		}
 		return serie;
 	}
 	public void setSerie(String serie) {
