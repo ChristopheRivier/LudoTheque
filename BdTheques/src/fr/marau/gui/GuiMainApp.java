@@ -15,6 +15,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.URL;
 import java.util.Properties;
+import java.util.Vector;
 
 import javax.swing.JButton;
 import javax.swing.JComponent;
@@ -44,8 +45,8 @@ public class GuiMainApp extends JPanel {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	private DataModel modBD;
-	private DataModel modLivre;
+	private Vector<DataModel> lstModel = new Vector<DataModel>();
+	private JTabbedPane tabbedpane = new JTabbedPane();
 	private Ludotheque lst;
 
 	private JComponent createTable(DataModel aMod) {
@@ -62,9 +63,7 @@ public class GuiMainApp extends JPanel {
 	// private JPanel jpan
 	public GuiMainApp(Properties properties) {
 		lst = new Ludotheque(properties);
-		modBD = new DataModel(new CategoryLudotheque("BD"));
-		modLivre = new DataModel(new CategoryLudotheque("Livre"));
-		JButton btn = new JButton("Bande Dessinée");
+		JButton btn = new JButton("Load");
 		this.setLayout(new BorderLayout());
 		btn.addActionListener(new ActionListener() {
 
@@ -83,21 +82,17 @@ public class GuiMainApp extends JPanel {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
+
 				for( CategoryLudotheque p : lst.lst){
-					if( p.getCategory().equals("BD")){
-						modBD.modify(p);
-					}else if( p.getCategory().equals("Livre") ){
-						modLivre.modify(p);
-					}
+					DataModel tmp = new DataModel(p);
+					lstModel.add( tmp );
+					tabbedpane.addTab(p.getCategory(),createTable(tmp));
 				}
 			}
 		});
 		add(btn, BorderLayout.NORTH);
 
-		JTabbedPane tabbedpane = new JTabbedPane();
 		tabbedpane.setTabPlacement(JTabbedPane.TOP);
-		tabbedpane.addTab("BD", createTable(modBD));
-		tabbedpane.addTab("Livres", createTable(modLivre));
 		tabbedpane.setForeground(Color.BLUE);
 
 		add(tabbedpane, BorderLayout.CENTER);

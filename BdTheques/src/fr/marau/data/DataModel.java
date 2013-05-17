@@ -1,7 +1,5 @@
 package fr.marau.data;
 
-
-
 import javax.swing.table.AbstractTableModel;
 
 public class DataModel extends AbstractTableModel {
@@ -17,6 +15,10 @@ public class DataModel extends AbstractTableModel {
 
 	public DataModel(CategoryLudotheque lst) {
 		lstEl = lst;
+	}
+
+	public String getCategory(){
+		return lstEl.getCategory();
 	}
 	@Override
 	public int getColumnCount() {
@@ -55,12 +57,40 @@ public class DataModel extends AbstractTableModel {
 		}
 		return ret;
 	}
-	
-	public void setValueAt(int arg0, int arg1){
+
+	public void setValueAt(Object value, int row, int col) {
+		ElementLudotheque el = (ElementLudotheque) lstEl.getLudo().get(row);
 		
+		switch (col) {
+		case 0:
+			el.setTitre( (String) value);
+			break;
+		case 1:
+			el.setAuteur( (String) value);
+			break;
+		case 2:
+			el.setSerie( (String) value);
+			break;
+		case 3:
+			el.setDescription( (String) value);
+			break;
+		case 4:
+			el.setEditeur( (String) value);
+			break;
+		}
+		fireTableCellUpdated(row, col);
 	}
+
+	public void setValueAt(int arg0, int arg1) {
+
+	}
+
 	public void modify(CategoryLudotheque lst) {
 		lstEl = lst;
 		fireTableDataChanged();
+	}
+
+	public boolean isCellEditable(int iRowIndex, int iColumnIndex) {
+		return true;
 	}
 }
