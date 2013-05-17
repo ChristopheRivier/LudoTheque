@@ -36,7 +36,7 @@ public class CreateXMLFile {
 	/**
 	 * 
 	 */
-	public CreateXMLFile(Ludotheque ludo, Properties prop ) {
+	public CreateXMLFile(Ludotheque ludo, String fileName, Properties prop ) {
 		_prop = prop;
 		DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory
 				.newInstance();
@@ -48,7 +48,8 @@ public class CreateXMLFile {
 			document.appendChild(rootElement);
 
 			for( CategoryLudotheque c : ludo.lst ){
-				
+				Element cat = document.createElement("categorie");
+				cat.setAttribute("name", c.getCategory());
 				for (ElementLudotheque p : c.getLudo()) {
 					Element em = document.createElement("entite");
 					em.setAttribute("title", p.getTitre());
@@ -63,23 +64,24 @@ public class CreateXMLFile {
 					if (p.getAuteur() != null)
 						auteur.appendChild(document.createTextNode(p.getAuteur()));
 					em.appendChild(auteur);
-					rootElement.appendChild(em);
+					cat.appendChild(em);
 				}
+				rootElement.appendChild(cat);
 			}
-			writeFile(document);
+			writeFile( document, fileName );
 		} catch (ParserConfigurationException e) {
 			e.printStackTrace();
 		}
 	}
 
-	private void writeFile(Document document) {
+	private void writeFile(Document document, String fileName ) {
 		TransformerFactory transformerFactory = TransformerFactory
 				.newInstance();
 		Transformer transformer;
 		try {
 			transformer = transformerFactory.newTransformer();
 			DOMSource source = new DOMSource(document);
-			File test = new File(_prop.getProperty("XMLFile"));
+			File test = new File(fileName);
 			try {
 				test.createNewFile();
 			} catch (IOException e) {

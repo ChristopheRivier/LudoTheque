@@ -53,6 +53,7 @@ public class GuiMainApp extends JPanel {
 		tab.setPreferredScrollableViewportSize(new Dimension(500, 70));
 		tab.setFillsViewportHeight(true);
 		tab.setAutoscrolls(true);
+		tab.setDefaultRenderer(Object.class, new TableRenderBD());
 		JScrollPane scrollPane = new JScrollPane(tab);
 
 		return scrollPane;
@@ -157,18 +158,28 @@ public class GuiMainApp extends JPanel {
 		item1 = new MenuItem("Save");
 		item1.setActionCommand("save");
 		menu1.add(item1);
+		item1 = new MenuItem("Save As");
+		item1.setActionCommand("saveAs");
+		menu1.add(item1);
 		menu1.addActionListener(new ActionListener() {
 
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				if (arg0.getActionCommand().equals("save")) {
-					new CreateXMLFile(win.getLudo(), properties);
+					new CreateXMLFile(win.getLudo(), properties.getProperty("XMLFile"), properties);
 				} else if (arg0.getActionCommand().equals("Open")) {
 					final JFileChooser fc = new JFileChooser();
 					int returnVal = fc.showOpenDialog(win);
 					if (returnVal == JFileChooser.APPROVE_OPTION) {
 						File file = fc.getSelectedFile();
 						properties.setProperty("XMLFile", file.getPath());
+					}
+				}else if (arg0.getActionCommand().equals("saveAs")){
+					final JFileChooser fc = new JFileChooser();
+					int returnVal = fc.showOpenDialog(win);
+					if (returnVal == JFileChooser.APPROVE_OPTION) {
+						File file = fc.getSelectedFile();
+						new CreateXMLFile(win.getLudo(), file.getPath(), properties);
 					}
 				}
 			}
