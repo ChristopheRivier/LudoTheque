@@ -48,6 +48,7 @@ public class GuiMainApp extends JPanel {
 	private Vector<DataModel> lstModel = new Vector<DataModel>();
 	private JTabbedPane tabbedpane = new JTabbedPane();
 	private Ludotheque lst;
+	private JButton btn = new JButton("Add Line");
 
 	private JComponent createTable(DataModel aMod) {
 		JTable tab = new JTable(aMod);
@@ -63,7 +64,7 @@ public class GuiMainApp extends JPanel {
 	// private JPanel jpan
 	public GuiMainApp(Properties properties) {
 		lst = new Ludotheque(properties);
-		JButton btn = new JButton("Load");
+		btn.setVisible(false);
 		this.setLayout(new BorderLayout());
 		btn.addActionListener(new ActionListener() {
 
@@ -82,12 +83,14 @@ public class GuiMainApp extends JPanel {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
-
+				//lstModel.getModel();
+				
+/*
 				for( CategoryLudotheque p : lst.lst){
 					DataModel tmp = new DataModel(p);
 					lstModel.add( tmp );
 					tabbedpane.addTab(p.getCategory(),createTable(tmp));
-				}
+				}*/
 			}
 		});
 		add(btn, BorderLayout.NORTH);
@@ -102,6 +105,27 @@ public class GuiMainApp extends JPanel {
 		return lst;
 	}
 
+	public void Load(){
+		btn.setVisible(true);
+		try {
+			lst.getLstFromXml();
+		} catch (SAXException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (ParserConfigurationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		for( CategoryLudotheque p : lst.lst){
+			DataModel tmp = new DataModel(p);
+			lstModel.add( tmp );
+			tabbedpane.addTab(p.getCategory(),createTable(tmp));
+		}
+	}
 	/**
 	 * Create the GUI and show it. For thread safety, this method should be
 	 * invoked from the event dispatch thread.
@@ -150,6 +174,9 @@ public class GuiMainApp extends JPanel {
 		MenuItem item1 = new MenuItem("Ouvrir");
 		item1.setActionCommand("Open");
 		menu1.add(item1);
+		item1 = new MenuItem("Load");
+		item1.setActionCommand("Load");
+		menu1.add(item1);
 		item1 = new MenuItem("Save");
 		item1.setActionCommand("save");
 		menu1.add(item1);
@@ -176,9 +203,12 @@ public class GuiMainApp extends JPanel {
 						File file = fc.getSelectedFile();
 						new CreateXMLFile(win.getLudo(), file.getPath(), properties);
 					}
+				}else if ( arg0.getActionCommand().equals("Load")){
+					win.Load();
 				}
 			}
 		});
+		
 		test.add(menu1);
 		frame.setMenuBar(test);
 	}
