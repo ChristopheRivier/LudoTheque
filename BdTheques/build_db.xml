@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="BdTheques.makejar" default="makejar" basedir=".">
+	<property name="version" value="0.0.1" />
+	
+	<target name="makejar" description="Create a jar for the BdTheques project">
+		<jar jarfile="BdTheques.jar" basedir="bin">
+			<manifest >
+				<attribute name="Built-By" value="${user.name}" />
+				<section name="common">
+					<attribute name="Specification-Title" value="BdTheques" />
+					<attribute name="Specification-Version" value="${version}" />
+					<attribute name="Implementation-Title" value="BdTheques" />
+					<attribute name="Implementation-Version" value="${version} ${TODAY}" />
+				</section>
+				 <attribute name="Main-Class" value="fr.marau.BdTheque"/>
+			</manifest>
+		</jar>
+	</target>
+</project>

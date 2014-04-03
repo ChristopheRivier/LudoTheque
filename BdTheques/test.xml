@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
 <BDTheque>
+<categorie name="BD">
 <entite serie="Morea" title="Morea T3">
-<description>Ayant les 2 premiers, il faut les suivants, j'aime
-				beaucoup</description>
+<description>Ayant les 2 premiers, il faut les suivants, j'aime beaucoup</description>
 <auteur>Arleston,Latil Labrosse</auteur>
 </entite>
 <entite serie="Morea" title="Morea T4">
@@ -22,8 +22,7 @@
 <auteur>Gaudin, Sieurat</auteur>
 </entite>
 <entite serie="Morgana" title="Morgana T1">
-<description>première trilogie, assez prenant, le fin de la trilogie
-				laisse présager une suite plus ennuyeuse</description>
+<description>première trilogie, assez prenant, le fin de la trilogie laisse présager une suite plus ennuyeuse</description>
 <auteur>Alberti, Enoch</auteur>
 </entite>
 <entite serie="Morgana" title="Morgana T2">
@@ -34,32 +33,28 @@
 <description/>
 <auteur>Alberti, Enoch</auteur>
 </entite>
-<entite serie="Le" title="Le lievre de mars">
+<entite serie="Le lievre de mars" title="Le lievre de mars">
 <description/>
 <auteur>Cothias,Parras</auteur>
 </entite>
-<entite serie="Le" title="Le lievre de mars 2">
+<entite serie="Le lievre de mars" title="Le lievre de mars 2">
 <description/>
 <auteur>Cothias,Parras</auteur>
 </entite>
-<entite serie="Le" title="Le lievre de mars 3">
+<entite serie="Le lievre de mars" title="Le lievre de mars 3">
 <description/>
 <auteur>Cothias,Parras</auteur>
 </entite>
-<entite serie="Le" title="Le lievre de mars 4">
-<description>Fin du premier cycle, d'après les critiques la série
-				aurait du s'arréter là</description>
+<entite serie="Le lievre de mars" title="Le lievre de mars 4">
+<description>Fin du premier cycle, d'après les critiques la série aurait du s'arréter là</description>
 <auteur>Cothias,Parras</auteur>
 </entite>
-<entite serie="Le" title="Le lievre de mars 5">
+<entite serie="Le lievre de mars" title="Le lievre de mars 5">
 <description/>
 <auteur>Cothias,Parras</auteur>
 </entite>
-<entite serie="Le" title="Le lievre de mars 6">
-<description>Je trouvais les critiques sévère, mais après avoir lu le
-				9 je comprends c'est du n'importe quoi, un ne sais pas ou le
-				scénario va nous emmener, généralement c'est une qualité mais là ...
-			</description>
+<entite serie="Le lievre de mars" title="Le lievre de mars 6">
+<description>Je trouvais les critiques sévère, mais après avoir lu le 9 je comprends c'est du n'importe quoi, un ne sais pas ou le scénario va nous emmener, généralement c'est une qualité mais là ...</description>
 <auteur>Cothias,Parras</auteur>
 </entite>
 <entite serie="Le" title="Le lievre de mars 7">
@@ -71,13 +66,10 @@
 <auteur>Cothias,Guéra</auteur>
 </entite>
 <entite serie="Le" title="Le lievre de mars 9">
-<description>Le scénariste devait vouloir finir rapidement, plus
-				d'une dizaine de page réécrite, par un autre dessinateur d'accord
-				mais c'est de la bue =&gt; je pense qu'après ce flop il n'aura jamais
-				de suite</description>
+<description>Le scénariste devait vouloir finir rapidement, plus d'une dizaine de page réécrite, par un autre dessinateur d'accord mais c'est de la bue =&gt; je pense qu'après ce flop il n'aura jamais de suite</description>
 <auteur>Cothias,Guéra</auteur>
 </entite>
-<entite title="Atalante">
+<entite serie="Atalante" title="Atalante">
 <description/>
 <auteur>Crisse</auteur>
 </entite>
@@ -106,15 +98,11 @@
 <auteur>Gaudin Danard</auteur>
 </entite>
 <entite serie="Marlysa" title="Marlysa T5 le Thaumaturge">
-<description>Fin du premier cycle : toujours sur le thème combat,
-				bien contre mal, l'équipe est assez sympathique</description>
+<description>Fin du premier cycle : toujours sur le thème combat, bien contre mal, l'équipe est assez sympathique</description>
 <auteur>Gaudin Danard</auteur>
 </entite>
 <entite serie="Marlysa" title="Marlysa T6 la femme vie">
-<description>On ne retrouve que Marlysa, c'est décevant, mais en même
-				temps c'est mieux, on continue sur le personnage principale. Ce tome
-				ce suffit à lui même =&gt; laisse présagé des suites comme troll de
-				troy</description>
+<description>On ne retrouve que Marlysa, c'est décevant, mais en même temps c'est mieux, on continue sur le personnage principale. Ce tome ce suffit à lui même =&gt; laisse présagé des suites comme troll de troy</description>
 <auteur>Gaudin Danard</auteur>
 </entite>
 <entite serie="Les" title="Les foret d'Opale T1 Le bracelet de Cohars">
@@ -134,11 +122,7 @@
 <auteur>Arleston Pellet</auteur>
 </entite>
 <entite serie="Pandora" title="Pandora I le régent fou">
-<description>Une jeune princesse pucelle, qui ne doit pas le rester
-				longtemps, un jolie porteur du Toh (objet magique), un protecteur,
-				un bon trio pour une série ou les tomes devrait à priori ce suffir à
-				eux même, l'histoire générale ne semble pas très importante
-			</description>
+<description>Une jeune princesse pucelle, qui ne doit pas le rester longtemps, un jolie porteur du Toh (objet magique), un protecteur, un bon trio pour une série ou les tomes devrait à priori ce suffir à eux même, l'histoire générale ne semble pas très importante</description>
 <auteur>Allart Stoffel</auteur>
 </entite>
 <entite serie="Pandora" title="Pandora II les flibustiers du grand fleuve">
@@ -198,9 +182,7 @@
 <auteur>Arleston Hübsch</auteur>
 </entite>
 <entite serie="Le" title="Le chant d'excalibur T4 la colère de Merlin">
-<description>Rien de très nouveaux, c'est du Arleston tout cracher,
-				quelques pics à Astérix, toujours une femme comme Héroïne ... mais
-				on ne peut pas être dessus si on aime ;)</description>
+<description>Rien de très nouveaux, c'est du Arleston tout cracher, quelques pics à Astérix, toujours une femme comme Héroïne ... mais on ne peut pas être dessus si on aime ;)</description>
 <auteur>Arleston Hübsch</auteur>
 </entite>
 <entite serie="Mangecoeur" title="Mangecoeur T1 La chrysalide Diaprée">
@@ -224,8 +206,7 @@
 <auteur>Arleston,Latil Manini</auteur>
 </entite>
 <entite serie="Salem" title="Salem la noire T1 La pierre de Mort-Levée">
-<description>BD de dérision, drôle, dans un univers magique
-			</description>
+<description>BD de dérision, drôle, dans un univers magique</description>
 <auteur>Cordurié Créty</auteur>
 </entite>
 <entite serie="Salem" title="Salem la noire T2 Le diadème des ames">
@@ -237,11 +218,7 @@
 <auteur>Cordurié Créty</auteur>
 </entite>
 <entite serie="Seigneur" title="Seigneur d'agartha T1 La dette">
-<description>Si vous croyez être seul dans l'univers c'est sans
-				compter avec les seigneurs d'agartha. Seule les filles peuvent
-				survivre sur la terre, un rejeton à subsiter, avec tous les efforts
-				de sa mère.... c'est sympa, comme beaucoup on a peur que ça traine
-				en longueur, très bonne entame en tout cas.</description>
+<description>Si vous croyez être seul dans l'univers c'est sans compter avec les seigneurs d'agartha. Seule les filles peuvent survivre sur la terre, un rejeton à subsiter, avec tous les efforts de sa mère.... c'est sympa, comme beaucoup on a peur que ça traine en longueur, très bonne entame en tout cas.</description>
 <auteur>Plongeon Briones</auteur>
 </entite>
 <entite serie="Seigneur" title="Seigneur d'agartha T2 L'oracle">
@@ -249,10 +226,7 @@
 <auteur>Plongeon Briones</auteur>
 </entite>
 <entite serie="Machefer" title="Machefer T01 une huile en fuite">
-<description>Série finie, humour et action sont au rdv dans ces
-				aventures, a priori dans le futur, ou les connaissances
-				technologique pour la fabrication des certains composant ont été
-				perdu (ou détruit?)</description>
+<description>Série finie, humour et action sont au rdv dans ces aventures, a priori dans le futur, ou les connaissances technologique pour la fabrication des certains composant ont été perdu (ou détruit?)</description>
 <auteur>Duval Vastra</auteur>
 </entite>
 <entite serie="Machefer" title="Machefer T02 le désert des carcasses">
@@ -264,9 +238,7 @@
 <auteur>Duval Vastra</auteur>
 </entite>
 <entite serie="Slhoka" title="Slhoka T01 L'ile oubliée">
-<description>Une guerre entre 2 peuples, un peuple oublié avec ces
-				dieux, qui veulent sauver son peuple, monde interressant, scénario
-				sans trop de nouveauté</description>
+<description>Une guerre entre 2 peuples, un peuple oublié avec ces dieux, qui veulent sauver son peuple, monde interressant, scénario sans trop de nouveauté</description>
 <auteur>Godderidge Floch</auteur>
 </entite>
 <entite serie="Slhoka" title="Slhoka T02 Les jardins de Sangali">
@@ -278,9 +250,7 @@
 <auteur>Godderidge Floch</auteur>
 </entite>
 <entite serie="Alzéor" title="Alzéor Mondraggo T01 La pierre blanche">
-<description>Dans un monde moyennageux et magique, une grosse part de
-				dérision, c'est écrit par un mec, et c'est pour ça que c'est drôle,
-				(il a du avoir des pb avec ça copine ;) )</description>
+<description>Dans un monde moyennageux et magique, une grosse part de dérision, c'est écrit par un mec, et c'est pour ça que c'est drôle, (il a du avoir des pb avec ça copine ;) )</description>
 <auteur>Makyo Caryn</auteur>
 </entite>
 <entite serie="Alzéor" title="Alzéor Mondraggo T02 Le prince rouge">
@@ -288,14 +258,11 @@
 <auteur>Makyo Caryn</auteur>
 </entite>
 <entite serie="Alzéor" title="Alzéor Mondraggo T03 la clef de l'amour">
-<description>Album satirique sur les ceintures de chasteté, résume
-				typiquement le comportement masculin (avec les montés d'hormone, les
-				femmes nous tiennent par le bout du nez)</description>
+<description>Album satirique sur les ceintures de chasteté, résume typiquement le comportement masculin (avec les montés d'hormone, les femmes nous tiennent par le bout du nez)</description>
 <auteur>Makyo Caryn</auteur>
 </entite>
 <entite serie="Travis" title="Travis T01 Huracan">
-<description>Scénario très prenant, pour l'instant chaque tome donne
-				des réponses aux questions posées, se dévore</description>
+<description>Scénario très prenant, pour l'instant chaque tome donne des réponses aux questions posées, se dévore</description>
 <auteur>Duval Quet</auteur>
 </entite>
 <entite serie="Travis" title="Travis T02 Operation minotaure">
@@ -311,9 +278,7 @@
 <auteur>Duval Quet</auteur>
 </entite>
 <entite serie="Travis" title="Travis T05 Cybernation">
-<description>Fin du premier cycle, Super scénario, dans le futur
-				2050, intrigue planétaire, sur fond de multiinternationnal qui
-				prenne le pouvoir de la planète ...</description>
+<description>Fin du premier cycle, Super scénario, dans le futur 2050, intrigue planétaire, sur fond de multiinternationnal qui prenne le pouvoir de la planète ...</description>
 <auteur>Duval Quet</auteur>
 </entite>
 <entite serie="Travis" title="Travis T06.1 Le Hammeau des chènes">
@@ -325,8 +290,7 @@
 <auteur>Duval Alizon</auteur>
 </entite>
 <entite serie="Travis" title="Travis T07 La Tarentule">
-<description>Fin du second cycle, des révélations sur le rôle de
-				Travis dans tout ça</description>
+<description>Fin du second cycle, des révélations sur le rôle de Travis dans tout ça</description>
 <auteur>Duval Quet</auteur>
 </entite>
 <entite serie="La" title="La cicatrice du souvenir T01 Les évadés de Kanash">
@@ -342,11 +306,7 @@
 <auteur>Ange Paty</auteur>
 </entite>
 <entite serie="le" title="le sang du dragon T01 au delà des brumes">
-<description>Série en cours. Scénario très prenant. Au 18ème pirates,
-				et monde magique elfique. Les elfes vivent dans un monde non visible
-				des humains, certaines portent permettent de passer d'un monde à
-				l'autre. Un pirate connaissant ces portes devient le maitre ;)
-			</description>
+<description>Série en cours. Scénario très prenant. Au 18ème pirates, et monde magique elfique. Les elfes vivent dans un monde non visible des humains, certaines portent permettent de passer d'un monde à l'autre. Un pirate connaissant ces portes devient le maitre ;)</description>
 <auteur>Istin Michel</auteur>
 </entite>
 <entite serie="le" title="le sang du dragon T02 la pierre de Gaeldenn">
@@ -354,8 +314,7 @@
 <auteur>Istin Michel</auteur>
 </entite>
 <entite serie="Merlin" title="Merlin T01 La colère d'Ahès">
-<description>Série en cours, Merlin fils du dieu du vent et d'un
-				vierge, l'élu, le messie des peuples magiques...</description>
+<description>Série en cours, Merlin fils du dieu du vent et d'un vierge, l'élu, le messie des peuples magiques...</description>
 <auteur>Istin Lambert</auteur>
 </entite>
 <entite serie="Merlin" title="Merlin T02 L'éveil du pouvoir">
@@ -387,10 +346,7 @@
 <auteur>Istin Lambert</auteur>
 </entite>
 <entite serie="Les" title="Les brumes d'Asceltis T01 La citadelle Oslanne">
-<description>Série en cours. 8000 ans ce sont écoulés depuis
-				l'affrontement entre les élus de 4 Dieux contre Azell (dieu rebelle
-				ayant pris forme sur terre), Azell doit se réincarner et soumettre
-				le royaume d'Asceltis au Chaos</description>
+<description>Série en cours. 8000 ans ce sont écoulés depuis l'affrontement entre les élus de 4 Dieux contre Azell (dieu rebelle ayant pris forme sur terre), Azell doit se réincarner et soumettre le royaume d'Asceltis au Chaos</description>
 <auteur>Jarry Istin</auteur>
 </entite>
 <entite serie="Les" title="Les brumes d'Asceltis T02 Le dieu Lépreux">
@@ -402,9 +358,7 @@
 <auteur>Jarry Istin</auteur>
 </entite>
 <entite serie="Carmen" title="Carmen Mc Callum T01 Jukurpa">
-<description>Auteur de Travis, même univers 2050, influence
-				politique, Carmen chasseur de prime, travail maintenant pour l'ONU
-				en indépendante</description>
+<description>Auteur de Travis, même univers 2050, influence politique, Carmen chasseur de prime, travail maintenant pour l'ONU en indépendante</description>
 <auteur>Duval Gess</auteur>
 </entite>
 <entite serie="Carmen" title="Carmen Mc Callum T02 Mare Tranquilitatis">
@@ -432,11 +386,7 @@
 <auteur>Duval Gess</auteur>
 </entite>
 <entite serie="Carmen" title="Carmen + Travis Les récits (Volume 1)">
-<description>Pour les fans de l'univers de Duval, je trouves les
-				récits interessants, précise le monde de Carmen et Travis. Par
-				contre le collectif rend la lecture fastitueuse, couleur, personnage
-				non simulaire, il faut retrouver ses petits à chaque récit
-			</description>
+<description>Pour les fans de l'univers de Duval, je trouves les récits interessants, précise le monde de Carmen et Travis. Par contre le collectif rend la lecture fastitueuse, couleur, personnage non simulaire, il faut retrouver ses petits à chaque récit</description>
 <auteur>Duval Collectif de dessinateur</auteur>
 </entite>
 <entite serie="Carmen" title="Carmen + Travis Les récits (Volume 2)">
@@ -464,9 +414,7 @@
 <auteur>Goupil Crisse</auteur>
 </entite>
 <entite serie="L'ancètre" title="L'ancètre programmé (2026)T01 Le temps de l'éveil">
-<description>Le monde en 2024-2028, la planète est a son apogée
-				capitalistique. Une supercaculateur, se reprogramme pour créer une
-				nouvelle réligion et ainsi sauvegarder l'humanité... </description>
+<description>Le monde en 2024-2028, la planète est a son apogée capitalistique. Une supercaculateur, se reprogramme pour créer une nouvelle réligion et ainsi sauvegarder l'humanité... </description>
 <auteur>Ploy Malnati</auteur>
 </entite>
 <entite serie="L'ancètre" title="L'ancètre programmé (2026)T02 Le temps de la conscience">
@@ -486,10 +434,7 @@
 <auteur>Ploy Di Bernardo,Brandi</auteur>
 </entite>
 <entite serie="Fides" title="Fides (2029) T01 Opus matrice">
-<description>Suite de L'ancètre programmé 2026. La destruction du
-				super calculateur entraine une secte au pouvoir. Les
-				contre-révélationiste tente de mettre fin à cette magnifique
-				manipulation des foules</description>
+<description>Suite de L'ancètre programmé 2026. La destruction du super calculateur entraine une secte au pouvoir. Les contre-révélationiste tente de mettre fin à cette magnifique manipulation des foules</description>
 <auteur>Ploy Pagot,Loïc</auteur>
 </entite>
 <entite serie="Fides" title="Fides (2029) T02 Fines matrice">
@@ -589,10 +534,7 @@
 <auteur>Falba Tasiaux</auteur>
 </entite>
 <entite serie="Anachron" title="Anachron T01 Le retour de la bète">
-<description>Au XXII siècle, Un consortium internationnal concerve
-				les planètes non encore prète (assez évoluer) des nouvelles
-				technologies. Thèmes interressant, mais le scénario n'est pas hyper
-				prenant, fait passer le temps.</description>
+<description>Au XXII siècle, Un consortium internationnal concerve les planètes non encore prète (assez évoluer) des nouvelles technologies. Thèmes interressant, mais le scénario n'est pas hyper prenant, fait passer le temps.</description>
 <auteur>Cailleteau Jurion</auteur>
 </entite>
 <entite serie="Anachron" title="Anachron T02 Le septième capitaine">
@@ -612,10 +554,7 @@
 <auteur>Cailleteau Jurion</auteur>
 </entite>
 <entite serie="Nocturnes" title="Nocturnes rouges T01 Sang rouge">
-<description>Les vampires sont depuis toujours parmis nous. La terre
-				a retrouvé la tranquilité aps l'extermination des pretes noires.
-				Mais ils reviennent avec l'aide des vampires ... scénario est très
-				prenant!</description>
+<description>Les vampires sont depuis toujours parmis nous. La terre a retrouvé la tranquilité aps l'extermination des pretes noires. Mais ils reviennent avec l'aide des vampires ... scénario est très prenant!</description>
 <auteur>Nhieu</auteur>
 </entite>
 <entite serie="Nocturnes" title="Nocturnes rouges T02 Zéphyr">
@@ -631,9 +570,7 @@
 <auteur>Nhieu</auteur>
 </entite>
 <entite serie="Les" title="Les arcanes de Midi Minuit T01 L'affaire de Nalta P312">
-<description>Policier dans la deuxieme ere industrielle, scénario
-				hyper prenant, dommage qu'il n'y ait pas vraiement de trame
-				directrice entre les tomes</description>
+<description>Policier dans la deuxieme ere industrielle, scénario hyper prenant, dommage qu'il n'y ait pas vraiement de trame directrice entre les tomes</description>
 <auteur>Gaudin Trichet</auteur>
 </entite>
 <entite serie="Les" title="Les arcanes de Midi Minuit T02 L'affaire de la ligne II">
@@ -649,9 +586,7 @@
 <auteur>Gaudin Trichet</auteur>
 </entite>
 <entite serie="Le" title="Le dernier Troyen T01 Le cheval de Troie">
-<description>Mitologie galactique, sorte d'épopée d'Ulysse
-				galactique. J'aime bien l'univers, qui se cale sur la mitologie Grec
-				connu.</description>
+<description>Mitologie galactique, sorte d'épopée d'Ulysse galactique. J'aime bien l'univers, qui se cale sur la mitologie Grec connu.</description>
 <auteur>Mangin Démarez</auteur>
 </entite>
 <entite serie="Le" title="Le dernier Troyen T02 La reine des Amazones">
@@ -666,6 +601,8 @@
 <description/>
 <auteur>Mangin Démarez</auteur>
 </entite>
+</categorie>
+<categorie name="CD">
 <entite title="Paradize">
 <description>Musique trop synthétique pour moi</description>
 <auteur>Indochine</auteur>
@@ -695,28 +632,23 @@
 <auteur>Les innocents</auteur>
 </entite>
 <entite serie="Rachel" title="Rachel au rocher">
-<description>Rock tranquille, ambiance, lancinent (proche Saez)
-			</description>
+<description>Rock tranquille, ambiance, lancinent (proche Saez)</description>
 <auteur>Tue loup</auteur>
 </entite>
 <entite serie="grain" title="grain de sable">
-<description>Pas de changement c'est du Tryo, peut etre un meilleur
-				travaille sur les voix dans cet album</description>
+<description>Pas de changement c'est du Tryo, peut etre un meilleur travaille sur les voix dans cet album</description>
 <auteur>Tryo</auteur>
 </entite>
 <entite serie="le" title="le fil">
-<description>C'est bien du camille option de procuration ;)
-			</description>
+<description>C'est bien du camille option de procuration ;)</description>
 <auteur>Camille</auteur>
 </entite>
 <entite serie="giants" title="giants of jazz play brassens">
-<description>C'est du haut niveau, sur certaines chansons Brassens
-				chante</description>
+<description>C'est du haut niveau, sur certaines chansons Brassens chante</description>
 <auteur>Brassens</auteur>
 </entite>
 <entite title="era">
-<description>Musique originale, dommage que ça tourne tout autour du
-				même thème</description>
+<description>Musique originale, dommage que ça tourne tout autour du même thème</description>
 <auteur>Era</auteur>
 </entite>
 <entite serie="l'amour" title="l'amour parfait">
@@ -740,8 +672,7 @@
 <auteur>Lucie</auteur>
 </entite>
 <entite serie="Live" title="Live in Wembley'86">
-<description>première écoute, c'est top... la vidéo doit être trop
-				top à voir</description>
+<description>première écoute, c'est top... la vidéo doit être trop top à voir</description>
 <auteur>Queen</auteur>
 </entite>
 <entite serie="Live" title="Live acoustic">
@@ -757,8 +688,7 @@
 <auteur>Pierpoljak</auteur>
 </entite>
 <entite serie="a" title="a table">
-<description>a acquérir, c'est vraiement top, une belle voix, ironie,
-				parodie...</description>
+<description>a acquérir, c'est vraiement top, une belle voix, ironie, parodie...</description>
 <auteur>Nicolas Bacchus</auteur>
 </entite>
 <entite title="menteur">
@@ -770,16 +700,11 @@
 <auteur>Charlelie Couture</auteur>
 </entite>
 <entite serie="The" title="The living road">
-<description>Je l'ai déjà à la maison c'était pour pas le ramener :p
-			</description>
+<description>Je l'ai déjà à la maison c'était pour pas le ramener :p</description>
 <auteur>Lhasa</auteur>
 </entite>
 <entite serie="Fan" title="Fan live, Studio live">
-<description>Très bonne surprise, ce n'est pas vraiement le style de
-				musique que j'écoute, mais j'aime beaucoup le voix qui monte assez
-				haut, par contre petit bémol tout de même, des fois(rarement tout de
-				même, une ou deux fois sur le live) ça ne fait pas chanter
-			</description>
+<description>Très bonne surprise, ce n'est pas vraiement le style de musique que j'écoute, mais j'aime beaucoup le voix qui monte assez haut, par contre petit bémol tout de même, des fois(rarement tout de même, une ou deux fois sur le live) ça ne fait pas chanter</description>
 <auteur>Pascal Obispo</auteur>
 </entite>
 <entite serie="Fantaisie" title="Fantaisie militaire">
@@ -802,9 +727,10 @@
 <description/>
 <auteur>Les VRP</auteur>
 </entite>
+</categorie>
+<categorie name="DVD">
 <entite serie="Atomik" title="Atomik circus">
-<description>Un film complètement déjanté, il faut être dans le trip
-				(mélange de gore et humour) c'est particulier</description>
+<description>Un film complètement déjanté, il faut être dans le trip (mélange de gore et humour) c'est particulier</description>
 <auteur>Avec Paradis,...</auteur>
 </entite>
 <entite title="Volte/Face">
@@ -828,16 +754,11 @@
 <auteur>Charles Berling, Edouard Baer</auteur>
 </entite>
 <entite serie="Princess" title="Princess Mononoké">
-<description>Une référence dans les mangas, histoire original sur le
-				thèmes des croyances.</description>
+<description>Une référence dans les mangas, histoire original sur le thèmes des croyances.</description>
 <auteur>MIYAZAKI</auteur>
 </entite>
 <entite title="Papa">
-<description>Film très fort, une famille perd un de ces enfants,
-				(noyade par négligeance). On ne connait pas le contexte, un père
-				voyage avec son fils, périple drôle, mais vite rattraper par ce
-				drame. Un voyage intense, rapprochant encore le père avec son fils.
-			</description>
+<description>Film très fort, une famille perd un de ces enfants, (noyade par négligeance). On ne connait pas le contexte, un père voyage avec son fils, périple drôle, mais vite rattraper par ce drame. Un voyage intense, rapprochant encore le père avec son fils.</description>
 <auteur>Avec Alain Chabat</auteur>
 </entite>
 <entite title="Kuzco">
@@ -850,8 +771,7 @@
 </entite>
 <entite title="Abyss">
 <description/>
-<auteur> de James Cameron avec Mary Elizabeth Mastrantonio et Michael
-				Biehn</auteur>
+<auteur> de James Cameron avec Mary Elizabeth Mastrantonio et Michael Biehn</auteur>
 </entite>
 <entite title="Ray">
 <description/>
@@ -870,13 +790,12 @@
 <auteur>De Richard Kelly</auteur>
 </entite>
 <entite serie="Le" title="Le Grand blond">
-<description>duologie du grand blond avec Pierre Richard
-			</description>
+<description>duologie du grand blond avec Pierre Richard</description>
 <auteur>Avec Pierre Richard</auteur>
 </entite>
 <entite serie="sailor" title="sailor et loula">
 <description/>
-<auteur> De David Lynch avec Nicolas Cage et Laura Dern</auteur>
+<auteur> De David Lynch  avec Nicolas Cage et Laura Dern</auteur>
 </entite>
 <entite title="Podium">
 <description/>
@@ -887,58 +806,31 @@
 <auteur>Une comédie de olivier Ducastel et Jacques Martineau</auteur>
 </entite>
 <entite serie="Vampire" title="Vampire Hunter D">
-<description>Mi-homme mi-vampire, D est un chasseur de vampire,
-				sympa, apparement il y a plusieurs opus à voir</description>
+<description>Mi-homme mi-vampire, D est un chasseur de vampire, sympa, apparement il y a plusieurs opus à voir</description>
 <auteur>? Animation</auteur>
 </entite>
 <entite serie="La" title="La ligue des Gentlemen extraordinaires">
-<description>Dès la première scène, on comprend qu'il n'y aura pas
-				grand chose à comprendre ;) Dès la première scène de Sean Connery,
-				on comprend qu'il voulait refaire un James Bond mais qu'il était
-				trop vieux, alors il s'est inventé ça ! Le meilleur bide
-				superproduction que j'ai vu.</description>
+<description>Dès la première scène, on comprend qu'il n'y aura pas grand chose à comprendre ;) Dès la première scène de Sean Connery, on comprend qu'il voulait refaire un James Bond mais qu'il était trop vieux, alors il s'est inventé ça ! Le meilleur bide superproduction que j'ai vu.</description>
 <auteur>De Stephen Norrington avec Sean Connery</auteur>
 </entite>
+</categorie>
+<categorie name="Livre"/>
+<categorie name="Jeux">
 <entite title="Keythedral">
-<description>
-				Le but du jeux est de participer à la construction de la cathédrale.
-				Chaque souverain (joueur), doit fournir les différentes briques de
-				l'édifices en payant avec des ressources.
-				
-				les champs de ressources sont définis en début de partie par un
-				placement de tuile, à deux jeux interessant, mais le placement au
-				départ est très important, sinon on ne peut acquérir de ressources,
-				petit bémol, début raté =&gt; partie foutu
-			</description>
+<description>Le but du jeux est de participer à la construction de la cathédrale. Chaque souverain (joueur), doit fournir les différentes briques de l'édifices en payant avec des ressources. les champs de ressources sont définis en début de partie par un placement de tuile, à deux jeux interessant, mais le placement au départ est très important, sinon on ne peut acquérir de ressources, petit bémol, début raté =&gt; partie foutu</description>
 <auteur>Richard Breese</auteur>
 </entite>
 <entite serie="Colossus" title="Colossus Arena">
-<description>Jouer uniquement à 2. Manque certains de tactique,
-				beaucoup de chance... Le principe : Une arène de monstre, on pari
-				sur ceux qui vont survivre, le thème et l'ambiance sont
-				interessants, le jeux en lui même manque d'interet</description>
+<description>Jouer uniquement à 2. Manque certains de tactique, beaucoup de chance... Le principe : Une arène de monstre, on pari sur ceux qui vont survivre, le thème et l'ambiance sont interessants, le jeux en lui même manque d'interet</description>
 <auteur>Reiner Knizia</auteur>
 </entite>
 <entite serie="Bric" title="Bric broc">
-<description>Petit jeux dans boite métal, comme les éléphants. Pas eu
-				le temps de jouer, c'est une sorte de mémorie, la variante semble
-				super interessante pour la mémoire. Le principe : 36 cartes avec 3
-				objets de la brocante, chaque joueur à son tour choisi une carte, le
-				but étant de récupérer le maximum de tous les objets. Dans la
-				variante on cache ce qu'on a pris, il faut donc ce rappeler qui a
-				pris quoi.</description>
+<description>Petit jeux dans boite métal, comme les éléphants. Pas eu le temps de jouer, c'est une sorte de mémorie, la variante semble super interessante pour la mémoire. Le principe : 36 cartes avec 3 objets de la brocante, chaque joueur à son tour choisi une carte, le but étant de récupérer le maximum de tous les objets. Dans la variante on cache ce qu'on a pris, il faut donc ce rappeler qui a pris quoi.</description>
 <auteur>dominique Ehrhard</auteur>
 </entite>
 <entite title="Thor">
-<description>Un peu dans l'esprit de Colossus Arena, je viens de voir
-				que c'est le même auteur, voilà le pourquoi du comment. Moins de
-				chance, un peu plus de tactique, on a eu le temps de jouer que 2
-				fois. C'est vrai que la 2ème partie était plus interessante. C'est
-				pas du super niveau, mais c'est à réessayer. Le but est de faire des
-				offrandes aux dieux, choisir nos préférés, en fonction des dernières
-				offrandes uniquement on fait le compte, c'est ce que j'ai trouvé de
-				dommage aux premiers abords, mais aps réflexion ça peut faire partie
-				de la tactique de jeux.</description>
+<description>Un peu dans l'esprit de Colossus Arena, je viens de voir que c'est le même auteur, voilà le pourquoi du comment. Moins de chance, un peu plus de tactique, on a eu le temps de jouer que 2 fois. C'est vrai que la 2ème partie était plus interessante. C'est pas du super niveau, mais c'est à réessayer. Le but est de faire des offrandes aux dieux, choisir nos préférés, en fonction des dernières offrandes uniquement on fait le compte, c'est ce que j'ai trouvé de dommage aux premiers abords, mais aps réflexion ça peut faire partie de la tactique de jeux.</description>
 <auteur>Reiner Knizia</auteur>
 </entite>
+</categorie>
 </BDTheque>
