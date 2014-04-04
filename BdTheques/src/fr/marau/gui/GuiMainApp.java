@@ -2,6 +2,7 @@ package fr.marau.gui;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
+import java.awt.Dialog;
 import java.awt.Dimension;
 import java.awt.Image;
 import java.awt.Menu;
@@ -19,6 +20,7 @@ import java.util.Vector;
 
 import javax.swing.JButton;
 import javax.swing.JComponent;
+import javax.swing.JDialog;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -49,7 +51,9 @@ public class GuiMainApp extends JPanel {
 	private JTabbedPane tabbedpane = new JTabbedPane();
 	private Ludotheque lst;
 	private JButton btn = new JButton("Add Line");
-
+	private GuiElementBD el = new GuiElementBD("test");
+	//private JDialog elM = new JDialog(el, "", Dialog.ModalityType.DOCUMENT_MODAL);
+	     
 	private JComponent createTable(DataModel aMod) {
 		JTable tab = new JTable(aMod);
 		tab.setPreferredScrollableViewportSize(new Dimension(500, 70));
@@ -83,6 +87,8 @@ public class GuiMainApp extends JPanel {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
+			//	el.setModalExclusionType(Dialog.ModalExclusionType.APPLICATION_EXCLUDE);
+				el.setVisible(true);
 				//lstModel.getModel();
 				
 /*
