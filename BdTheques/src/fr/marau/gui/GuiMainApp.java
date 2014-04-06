@@ -52,6 +52,7 @@ public class GuiMainApp extends JPanel {
 	private Ludotheque lst;
 	private JButton btn = new JButton("Add Line");
 	private GuiElementBD el = new GuiElementBD("test");
+	private PresentorElBD presentorEl = new PresentorElBD(el);
 	//private JDialog elM = new JDialog(el, "", Dialog.ModalityType.DOCUMENT_MODAL);
 	     
 	private JComponent createTable(DataModel aMod) {
@@ -89,6 +90,7 @@ public class GuiMainApp extends JPanel {
 				}
 			//	el.setModalExclusionType(Dialog.ModalExclusionType.APPLICATION_EXCLUDE);
 				el.setVisible(true);
+				
 				//lstModel.getModel();
 				
 /*

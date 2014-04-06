@@ -1,6 +1,5 @@
 package fr.marau.gui;
 
-import java.awt.BorderLayout;
 import java.awt.GridLayout;
 
 import javax.swing.ButtonGroup;
@@ -10,13 +9,31 @@ import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 import javax.swing.JTextField;
 
-public class GuiElementBD extends JFrame {
+import fr.marau.data.TypeEl;
+
+public class GuiElementBD extends JFrame implements IElementBiblio {
 
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
 
+	private ButtonGroup bg = new ButtonGroup();
+
+	private JRadioButton brBD = new JRadioButton("BD");
+	private JRadioButton brCD = new JRadioButton("CD");
+	private JRadioButton brDVD = new JRadioButton("DVD");
+	private JRadioButton brLivre = new JRadioButton("Livre");
+	private JRadioButton brJeux = new JRadioButton("Jeux");
+
+	
+	private JTextField txtTitle = new JTextField();
+	private JTextField txtAutor = new JTextField();
+	private JTextField txtSerie = new JTextField();
+	private JTextField txtEditor = new JTextField();
+	private JTextField txtComment = new JTextField();
+
+	
 	GuiElementBD(String title) {
 		super(title);
 		init();
@@ -28,30 +45,22 @@ public class GuiElementBD extends JFrame {
 		// addWindowListener(closeWindow);
 		JPanel panBtn = new JPanel();
 		panBtn.setLayout(new GridLayout(1, 0));
-		ButtonGroup bg = new ButtonGroup();
-		JRadioButton br1 = new JRadioButton("BD");
-		JRadioButton br2 = new JRadioButton("CD");
-		JRadioButton br3 = new JRadioButton("DVD");
-		JRadioButton br4 = new JRadioButton("Livre");
-		JRadioButton br5 = new JRadioButton("Jeux");
 		// ajout des boutons radio dans le groupe bg
-		bg.add(br1);
-		bg.add(br2);
-		bg.add(br3);
-		bg.add(br4);
-		bg.add(br5);
-		// test.add(bg);
-		panBtn.add(br1);
-		panBtn.add(br2);
-		panBtn.add(br3);
-		panBtn.add(br4);
-		panBtn.add(br5);
+		bg.add(brBD);
+		bg.add(brCD);
+		bg.add(brDVD);
+		bg.add(brLivre);
+		bg.add(brJeux);
+		panBtn.add(brBD);
+		panBtn.add(brCD);
+		panBtn.add(brDVD);
+		panBtn.add(brLivre);
+		panBtn.add(brJeux);
 		add(panBtn);
 		
 		JPanel panTitle = new JPanel();
 		panTitle.setLayout(new GridLayout(1,0));
 		JLabel lblTitle = new JLabel("Titre:");
-		JTextField txtTitle = new JTextField();
 		panTitle.add(lblTitle);
 		panTitle.add(txtTitle);
 		add( panTitle);
@@ -59,7 +68,6 @@ public class GuiElementBD extends JFrame {
 		JPanel panAutor = new JPanel();
 		panAutor.setLayout(new GridLayout(1,0));
 		JLabel lblAutor = new JLabel("Autor:");
-		JTextField txtAutor = new JTextField();
 		panAutor.add(lblAutor);
 		panAutor.add(txtAutor);
 		add( panAutor);
@@ -67,7 +75,6 @@ public class GuiElementBD extends JFrame {
 		JPanel panSerie = new JPanel();
 		panSerie.setLayout(new GridLayout(1,0));
 		JLabel lblSerie = new JLabel("Serie:");
-		JTextField txtSerie = new JTextField();
 		panSerie.add(lblSerie);
 		panSerie.add(txtSerie);
 		add( panSerie);
@@ -75,7 +82,6 @@ public class GuiElementBD extends JFrame {
 		JPanel panComment = new JPanel();
 		panComment.setLayout(new GridLayout(1,0));
 		JLabel lblComment = new JLabel("Comment:");
-		JTextField txtComment = new JTextField();
 		panComment.add(lblComment);
 		panComment.add(txtComment);
 		add( panComment);
@@ -83,12 +89,125 @@ public class GuiElementBD extends JFrame {
 		JPanel panEditor = new JPanel();
 		panEditor.setLayout(new GridLayout(1,0));
 		JLabel lblEditor = new JLabel("Editor:");
-		JTextField txtEditor = new JTextField();
 		panEditor.add(lblEditor);
 		panEditor.add(txtEditor);
 		add( panEditor);
 
 
+	}
+	/* (non-Javadoc)
+	 * @see fr.marau.gui.IElementBiblio#setTitle(java.lang.String)
+	 */
+	@Override
+	public void setTitle( String title ){
+		txtTitle.setText(title);
+	}
+	/* (non-Javadoc)
+	 * @see fr.marau.gui.IElementBiblio#getTitle()
+	 */
+	@Override
+	public String getTitle(){
+		return txtTitle.getText();
+	}
+	/* (non-Javadoc)
+	 * @see fr.marau.gui.IElementBiblio#setAutor(java.lang.String)
+	 */
+	@Override
+	public void setAutor( String Autor ){
+		txtAutor.setText( Autor );
+	}
+	/* (non-Javadoc)
+	 * @see fr.marau.gui.IElementBiblio#getAutor()
+	 */
+	@Override
+	public String getAutor(){
+		return txtAutor.getText();
+	}
+	/* (non-Javadoc)
+	 * @see fr.marau.gui.IElementBiblio#setComment(java.lang.String)
+	 */
+	@Override
+	public void setComment( String comment ){
+		txtComment.setText(comment);
+	}
+	/* (non-Javadoc)
+	 * @see fr.marau.gui.IElementBiblio#getComment()
+	 */
+	@Override
+	public String getComment(){
+		return txtComment.getText();
+	}
+	/* (non-Javadoc)
+	 * @see fr.marau.gui.IElementBiblio#setSerie(java.lang.String)
+	 */
+	@Override
+	public void setSerie( String serie ) {
+		txtSerie.setText( serie );
+	}
+	/* (non-Javadoc)
+	 * @see fr.marau.gui.IElementBiblio#getSerie()
+	 */
+	@Override
+	public String getSerie(){
+		return txtSerie.getText();
+	}
+	/* (non-Javadoc)
+	 * @see fr.marau.gui.IElementBiblio#setEditor(java.lang.String)
+	 */
+	@Override
+	public void setEditor(String editor){
+		txtEditor.setText(editor);
+	}
+	/* (non-Javadoc)
+	 * @see fr.marau.gui.IElementBiblio#getEditor()
+	 */
+	@Override
+	public String getEditor(){
+		return txtEditor.getText();
+	}
+	/* (non-Javadoc)
+	 * @see fr.marau.gui.IElementBiblio#setType(fr.marau.data.TypeEl)
+	 */
+	@Override
+	public void setType(TypeEl el){
+		switch (el) {
+		case CD:
+			brCD.setSelected(true);
+			break;
+		case BD:
+			brBD.setSelected(true);
+			break;
+		case LIVRE:
+			brLivre.setSelected(true);
+			break;
+		case JEUX:
+			brJeux.setSelected(true);
+			break;
+		case DVD:
+			brDVD.setSelected(true);
+			break;
+		default:
+			brBD.setSelected(true);
+			break;
+		}
+	}
+	/* (non-Javadoc)
+	 * @see fr.marau.gui.IElementBiblio#getTypeEl()
+	 */
+	@Override
+	public TypeEl getTypeEl(){
+		TypeEl ret = TypeEl.BD;
+		if( brCD.isSelected())
+			ret = TypeEl.CD;
+		else if( brDVD.isSelected() )
+			ret = TypeEl.DVD;
+		else if( brLivre.isSelected() )
+			ret = TypeEl.LIVRE;
+		else if( brJeux.isSelected() )
+			ret = TypeEl.JEUX;
+		else
+			ret = TypeEl.BD;
+		return ret;
 	}
 
 }
