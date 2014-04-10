@@ -11,13 +11,15 @@ import org.xml.sax.SAXException;
 
 import fr.marau.data.CategoryLudotheque;
 import fr.marau.data.DataModel;
+import fr.marau.data.ElementLudotheque;
 import fr.marau.data.Ludotheque;
+import fr.marau.data.TypeEl;
 
 public class PresentorApp implements ActionListener{
 
 	private GuiMainApp gui;
 	private Ludotheque lst;
-	private PresentorElBD presEl = new PresentorElBD();
+	private PresentorElBD presEl = new PresentorElBD(this);
 
 	public PresentorApp(GuiMainApp guiMainApp) {
 		gui = guiMainApp;
@@ -60,6 +62,10 @@ public class PresentorApp implements ActionListener{
 	public void actionPerformed(ActionEvent arg0) {
 		presEl.initCategory(gui.getSelectedCategory());
 		presEl.visible();
+	}
+	public void addElement(TypeEl typeEl, ElementLudotheque l) {
+		DataModel d = gui.getDataModel(typeEl);
+		d.addLine(l);
 	}
 	
 }

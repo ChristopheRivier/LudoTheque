@@ -37,5 +37,8 @@ public class CategoryLudotheque {
 		_category = new String(catName);
 		_ludo = new LinkedList<ElementLudotheque>();
 	}
+	public void addElement(ElementLudotheque el){
+		_ludo.add(el);
+	}
 
 }

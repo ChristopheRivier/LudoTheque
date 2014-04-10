@@ -4,6 +4,8 @@ import fr.marau.data.TypeEl;
 
 public interface IElementBiblio {
 
+	public abstract void setPresentor(PresentorElBD presentorEl) ;
+
 	public abstract void setTitle(String title);
 
 	public abstract String getTitle();

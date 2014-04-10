@@ -28,6 +28,7 @@ import javax.swing.JTable;
 
 import fr.marau.data.DataModel;
 import fr.marau.data.Ludotheque;
+import fr.marau.data.TypeEl;
 import fr.marau.file.CreateXMLFile;
 
 /**
@@ -180,5 +181,33 @@ public class GuiMainApp extends JPanel {
 	
 	public String getSelectedCategory(){
 		return tabbedpane.getTitleAt(tabbedpane.getSelectedIndex());
+	}
+
+	public DataModel getDataModel(TypeEl typeEl) {
+		String type = new String();
+		switch(typeEl){
+		case CD:
+			type = "CD";
+			break;
+		case DVD:
+			type="DVD";
+			break;
+		case LIVRE:
+			type="Livre";
+			break;
+		case JEUX:
+			type="Jeux";
+			break;
+		case BD:
+			type="BD";
+			break;
+		}
+		tabbedpane.setSelectedIndex(tabbedpane.indexOfTab(type));
+		
+		JScrollPane t = (JScrollPane) tabbedpane.getComponent(tabbedpane.indexOfTab(type));
+		JTable f = (JTable)t.getComponent(1);
+		DataModel model = (DataModel)f.getModel();
+		
+		return model;
 	}
 }

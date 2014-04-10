@@ -6,12 +6,17 @@ import fr.marau.data.TypeEl;
 public class PresentorElBD {
 	private IElementBiblio element = null;
 	private ElementLudotheque data = new ElementLudotheque();
-	
-	public PresentorElBD(IElementBiblio inter ){
+	private PresentorApp parent;
+
+	public PresentorElBD(PresentorApp p, IElementBiblio inter ){
 		element = inter;
+		element.setPresentor(this);
+		parent = p;
 	}
-	public PresentorElBD() {
+	public PresentorElBD(PresentorApp p) {
 		element = new GuiElementBD("test");
+		element.setPresentor(this);
+		parent = p;
 	}
 	public ElementLudotheque getData(){
 		return data;
@@ -34,9 +39,14 @@ public class PresentorElBD {
 		element.setSerie(data.getSerie());
 		element.setTitle(data.getTitre());
 	}
-	public void getLine() {
-		// TODO Auto-generated method stub
-		
+	public void sauvElement() {
+		ElementLudotheque l = new ElementLudotheque();
+		l.setAuteur(element.getAutor());
+		l.setDescription(element.getComment());
+		l.setEditeur(element.getEditor());
+		l.setSerie(element.getSerie());
+		l.setTitre(element.getTitle());
+		parent.addElement(element.getTypeEl(),l);
 	}
 	public void visible() {
 		element.visible();
@@ -46,13 +56,13 @@ public class PresentorElBD {
 	 */
 	public void initCategory(String selectedCategory) {
 		TypeEl l;
-		if ( selectedCategory == "CD"){
+		if ( selectedCategory.equals( "CD")){		
 			l=TypeEl.CD;
-		}else if( selectedCategory=="LIVRE")
+		}else if( selectedCategory.equals("Livre"))
 			l=TypeEl.LIVRE;
-		else if( selectedCategory=="DVD" )
+		else if( selectedCategory.equals("DVD" ))
 			l=TypeEl.DVD;
-		else if( selectedCategory=="JEUX" )
+		else if( selectedCategory.equals("Jeux" ))
 			l=TypeEl.JEUX;
 		else
 			l=TypeEl.BD;

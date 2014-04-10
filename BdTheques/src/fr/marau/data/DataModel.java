@@ -85,6 +85,10 @@ public class DataModel extends AbstractTableModel {
 
 	}
 
+	public void addLine(ElementLudotheque el ){
+		lstEl.addElement(el);
+		fireTableDataChanged();
+	}
 	public void modify(CategoryLudotheque lst) {
 		lstEl = lst;
 		fireTableDataChanged();

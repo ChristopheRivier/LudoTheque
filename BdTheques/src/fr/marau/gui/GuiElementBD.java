@@ -109,8 +109,7 @@ public class GuiElementBD extends JFrame implements IElementBiblio {
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				setVisible(false);
-				pres.getLine();
+				pres.sauvElement();
 			}
 		});
 	}
@@ -209,6 +208,7 @@ public class GuiElementBD extends JFrame implements IElementBiblio {
 			brBD.setSelected(true);
 			break;
 		}
+		
 	}
 	/* (non-Javadoc)
 	 * @see fr.marau.gui.IElementBiblio#getTypeEl()
