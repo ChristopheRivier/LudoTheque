@@ -41,4 +41,15 @@ public class Ludotheque {
 		lst = gestionnaire.getLudo();
 		return ret;
 	}
+	
+	public CategoryLudotheque getCategory( String cat ){
+		CategoryLudotheque ret = null;
+		for( CategoryLudotheque p: lst ){
+			if( p.getCategory()==cat ){
+				ret = p;
+				break;
+			}
+		}
+		return ret;
+	}
 }

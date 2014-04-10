@@ -24,8 +24,10 @@ public interface IElementBiblio {
 
 	public abstract String getEditor();
 
-	public abstract void setType(TypeEl el);
+	public abstract void setTypeEl(TypeEl el);
 
 	public abstract TypeEl getTypeEl();
+
+	public abstract void visible();
 
 }

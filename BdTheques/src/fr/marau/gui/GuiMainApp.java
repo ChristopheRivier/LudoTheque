@@ -2,7 +2,6 @@ package fr.marau.gui;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
-import java.awt.Dialog;
 import java.awt.Dimension;
 import java.awt.Image;
 import java.awt.Menu;
@@ -20,18 +19,13 @@ import java.util.Vector;
 
 import javax.swing.JButton;
 import javax.swing.JComponent;
-import javax.swing.JDialog;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTabbedPane;
 import javax.swing.JTable;
-import javax.xml.parsers.ParserConfigurationException;
 
-import org.xml.sax.SAXException;
-
-import fr.marau.data.CategoryLudotheque;
 import fr.marau.data.DataModel;
 import fr.marau.data.Ludotheque;
 import fr.marau.file.CreateXMLFile;
@@ -49,12 +43,10 @@ public class GuiMainApp extends JPanel {
 	private static final long serialVersionUID = 1L;
 	private Vector<DataModel> lstModel = new Vector<DataModel>();
 	private JTabbedPane tabbedpane = new JTabbedPane();
-	private Ludotheque lst;
 	private JButton btn = new JButton("Add Line");
-	private GuiElementBD el = new GuiElementBD("test");
-	private PresentorElBD presentorEl = new PresentorElBD(el);
-	//private JDialog elM = new JDialog(el, "", Dialog.ModalityType.DOCUMENT_MODAL);
-	     
+	    
+	private PresentorApp pres;
+
 	private JComponent createTable(DataModel aMod) {
 		JTable tab = new JTable(aMod);
 		tab.setPreferredScrollableViewportSize(new Dimension(500, 70));
@@ -68,39 +60,13 @@ public class GuiMainApp extends JPanel {
 
 	// private JPanel jpan
 	public GuiMainApp(Properties properties) {
-		lst = new Ludotheque(properties);
+		pres = new PresentorApp(this);
+		pres.initLudotheque(properties);
+
 		btn.setVisible(false);
+		btn.addActionListener(pres);
+		
 		this.setLayout(new BorderLayout());
-		btn.addActionListener(new ActionListener() {
-
-			@Override
-			public void actionPerformed(ActionEvent arg0) {
-
-				try {
-					lst.getLstFromXml();
-				} catch (SAXException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				} catch (IOException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				} catch (ParserConfigurationException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-			//	el.setModalExclusionType(Dialog.ModalExclusionType.APPLICATION_EXCLUDE);
-				el.setVisible(true);
-				
-				//lstModel.getModel();
-				
-/*
-				for( CategoryLudotheque p : lst.lst){
-					DataModel tmp = new DataModel(p);
-					lstModel.add( tmp );
-					tabbedpane.addTab(p.getCategory(),createTable(tmp));
-				}*/
-			}
-		});
 		add(btn, BorderLayout.NORTH);
 
 		tabbedpane.setTabPlacement(JTabbedPane.TOP);
@@ -110,29 +76,11 @@ public class GuiMainApp extends JPanel {
 	}
 
 	public Ludotheque getLudo() {
-		return lst;
+		return pres.getLudo();
 	}
 
 	public void Load(){
-		btn.setVisible(true);
-		try {
-			lst.getLstFromXml();
-		} catch (SAXException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (ParserConfigurationException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-
-		for( CategoryLudotheque p : lst.lst){
-			DataModel tmp = new DataModel(p);
-			lstModel.add( tmp );
-			tabbedpane.addTab(p.getCategory(),createTable(tmp));
-		}
+		pres.Load();
 	}
 	/**
 	 * Create the GUI and show it. For thread safety, this method should be
@@ -219,5 +167,18 @@ public class GuiMainApp extends JPanel {
 		
 		test.add(menu1);
 		frame.setMenuBar(test);
+	}
+
+	public void setBtnVisible(boolean b) {
+		btn.setVisible(b);	
+	}
+
+	public void addDataModel(String category, DataModel tmp) {
+		lstModel.add( tmp );
+		tabbedpane.addTab(category,createTable(tmp));
+	}
+	
+	public String getSelectedCategory(){
+		return tabbedpane.getTitleAt(tabbedpane.getSelectedIndex());
 	}
 }

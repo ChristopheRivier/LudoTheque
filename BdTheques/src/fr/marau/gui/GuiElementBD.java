@@ -1,8 +1,11 @@
 package fr.marau.gui;
 
 import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 import javax.swing.ButtonGroup;
+import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
@@ -17,6 +20,8 @@ public class GuiElementBD extends JFrame implements IElementBiblio {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
+
+	private JButton btn = new JButton("Save");
 
 	private ButtonGroup bg = new ButtonGroup();
 
@@ -33,15 +38,21 @@ public class GuiElementBD extends JFrame implements IElementBiblio {
 	private JTextField txtEditor = new JTextField();
 	private JTextField txtComment = new JTextField();
 
-	
+	private PresentorElBD pres;
+
 	GuiElementBD(String title) {
-		super(title);
+		//super(title);
+		super();
+		setTitle(title);
 		init();
 	}
 
 	void init() {
-		setBounds(32, 32, 300, 200);
-		setLayout(new GridLayout(0,1));
+		JFrame t = this;
+		
+		t.setBounds(32, 32, 300, 200);
+		
+		t.setLayout(new GridLayout(0,1));
 		// addWindowListener(closeWindow);
 		JPanel panBtn = new JPanel();
 		panBtn.setLayout(new GridLayout(1, 0));
@@ -56,44 +67,52 @@ public class GuiElementBD extends JFrame implements IElementBiblio {
 		panBtn.add(brDVD);
 		panBtn.add(brLivre);
 		panBtn.add(brJeux);
-		add(panBtn);
+		t.add(panBtn);
 		
 		JPanel panTitle = new JPanel();
 		panTitle.setLayout(new GridLayout(1,0));
 		JLabel lblTitle = new JLabel("Titre:");
 		panTitle.add(lblTitle);
 		panTitle.add(txtTitle);
-		add( panTitle);
+		t.add( panTitle);
 
 		JPanel panAutor = new JPanel();
 		panAutor.setLayout(new GridLayout(1,0));
 		JLabel lblAutor = new JLabel("Autor:");
 		panAutor.add(lblAutor);
 		panAutor.add(txtAutor);
-		add( panAutor);
+		t.add( panAutor);
 
 		JPanel panSerie = new JPanel();
 		panSerie.setLayout(new GridLayout(1,0));
 		JLabel lblSerie = new JLabel("Serie:");
 		panSerie.add(lblSerie);
 		panSerie.add(txtSerie);
-		add( panSerie);
+		t.add( panSerie);
 
 		JPanel panComment = new JPanel();
 		panComment.setLayout(new GridLayout(1,0));
 		JLabel lblComment = new JLabel("Comment:");
 		panComment.add(lblComment);
 		panComment.add(txtComment);
-		add( panComment);
+		t.add( panComment);
 
 		JPanel panEditor = new JPanel();
 		panEditor.setLayout(new GridLayout(1,0));
 		JLabel lblEditor = new JLabel("Editor:");
 		panEditor.add(lblEditor);
 		panEditor.add(txtEditor);
-		add( panEditor);
+		t.add( panEditor);
 
-
+		t.add(btn);
+		btn.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				setVisible(false);
+				pres.getLine();
+			}
+		});
 	}
 	/* (non-Javadoc)
 	 * @see fr.marau.gui.IElementBiblio#setTitle(java.lang.String)
@@ -169,7 +188,7 @@ public class GuiElementBD extends JFrame implements IElementBiblio {
 	 * @see fr.marau.gui.IElementBiblio#setType(fr.marau.data.TypeEl)
 	 */
 	@Override
-	public void setType(TypeEl el){
+	public void setTypeEl(TypeEl el){
 		switch (el) {
 		case CD:
 			brCD.setSelected(true);
@@ -208,6 +227,15 @@ public class GuiElementBD extends JFrame implements IElementBiblio {
 		else
 			ret = TypeEl.BD;
 		return ret;
+	}
+
+	public void setPresentor(PresentorElBD presentorEl) {
+		pres = presentorEl;
+	}
+	
+	@Override
+	public void visible(){
+		this.setVisible(true);
 	}
 
 }
