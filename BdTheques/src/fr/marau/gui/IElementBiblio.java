@@ -30,6 +30,6 @@ public interface IElementBiblio {
 
 	public abstract TypeEl getTypeEl();
 
-	public abstract void visible();
+	public abstract void visible(boolean b);
 
 }

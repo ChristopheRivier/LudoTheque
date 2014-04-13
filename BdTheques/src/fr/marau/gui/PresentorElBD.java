@@ -47,9 +47,10 @@ public class PresentorElBD {
 		l.setSerie(element.getSerie());
 		l.setTitre(element.getTitle());
 		parent.addElement(element.getTypeEl(),l);
+		element.visible(false);
 	}
 	public void visible() {
-		element.visible();
+		element.visible(true);
 	}
 	/*
 	 * defined the category from a string

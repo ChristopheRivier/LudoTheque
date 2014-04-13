@@ -234,8 +234,8 @@ public class GuiElementBD extends JFrame implements IElementBiblio {
 	}
 	
 	@Override
-	public void visible(){
-		this.setVisible(true);
+	public void visible(boolean b){
+		this.setVisible(b);
 	}
 
 }

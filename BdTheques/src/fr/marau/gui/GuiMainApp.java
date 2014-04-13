@@ -2,6 +2,7 @@ package fr.marau.gui;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
+import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.Image;
 import java.awt.Menu;
@@ -25,6 +26,7 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTabbedPane;
 import javax.swing.JTable;
+import javax.swing.JViewport;
 
 import fr.marau.data.DataModel;
 import fr.marau.data.Ludotheque;
@@ -45,7 +47,8 @@ public class GuiMainApp extends JPanel {
 	private Vector<DataModel> lstModel = new Vector<DataModel>();
 	private JTabbedPane tabbedpane = new JTabbedPane();
 	private JButton btn = new JButton("Add Line");
-	    
+	private JButton btnModif = new JButton("Modif line");
+	private JPanel p = new JPanel();    
 	private PresentorApp pres;
 
 	private JComponent createTable(DataModel aMod) {
@@ -64,12 +67,19 @@ public class GuiMainApp extends JPanel {
 		pres = new PresentorApp(this);
 		pres.initLudotheque(properties);
 
-		btn.setVisible(false);
+		btn.setVisible(true);
 		btn.addActionListener(pres);
 		
 		this.setLayout(new BorderLayout());
-		add(btn, BorderLayout.NORTH);
+		p.setLayout(new BorderLayout());
+		p.setVisible(false);
+		p.add(btn, BorderLayout.EAST);
 
+		btnModif.setVisible(true);
+		btnModif.addActionListener(pres);
+		
+		p.add(btnModif, BorderLayout.WEST);
+		add(p, BorderLayout.NORTH);
 		tabbedpane.setTabPlacement(JTabbedPane.TOP);
 		tabbedpane.setForeground(Color.BLUE);
 
@@ -171,7 +181,7 @@ public class GuiMainApp extends JPanel {
 	}
 
 	public void setBtnVisible(boolean b) {
-		btn.setVisible(b);	
+		p.setVisible(b);	
 	}
 
 	public void addDataModel(String category, DataModel tmp) {
@@ -205,7 +215,8 @@ public class GuiMainApp extends JPanel {
 		tabbedpane.setSelectedIndex(tabbedpane.indexOfTab(type));
 		
 		JScrollPane t = (JScrollPane) tabbedpane.getComponent(tabbedpane.indexOfTab(type));
-		JTable f = (JTable)t.getComponent(1);
+		JViewport view = t.getViewport();
+		JTable f = (JTable)view.getView();
 		DataModel model = (DataModel)f.getModel();
 		
 		return model;
